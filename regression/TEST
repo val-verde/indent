@@ -479,6 +479,7 @@ then
   cat  $ERR   
   echo '****  Errors occured: ./output not removed'
   echo
+  exit 1
 else
   cd ..
     ls -l output
