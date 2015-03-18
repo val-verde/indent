@@ -289,50 +289,49 @@ extern codes_ty lexi(void)
       if (isdigit (*buf_ptr) ||
           ((buf_ptr[0] == '.') && isdigit (buf_ptr[1])))
       {
-         int seendot = 0, seenexp = 0;
+         int seendot = 0, seenexp = 0, ishexa = 0;
 
          if ((*buf_ptr == '0') && ((buf_ptr[1] == 'x') || (buf_ptr[1] == 'X')))
          {
-            buf_ptr += 2;
-            while (isxdigit (*buf_ptr))
-            {
-               buf_ptr++;
-            }
+            ishexa = 1;
+            buf_ptr += 1;
          }
-         else
+         while (1)
          {
-            while (1)
+            if (*buf_ptr == '.')
             {
-               if (*buf_ptr == '.')
+               if (seendot)
                {
-                  if (seendot)
-                  {
-                     break;
-                  }
-                  else
-                  {
-                     seendot++;
-                  }
+                  break;
                }
-
-               buf_ptr++;
-                    
-               if (!isdigit (*buf_ptr) && *buf_ptr != '.')
+               else
                {
-                  if ((*buf_ptr != 'E' && *buf_ptr != 'e') || seenexp)
-                  {
-                     break;
-                  }
-                  else
-                  {
-                     seenexp++;
-                     seendot++;
-                     buf_ptr++;
+                  seendot++;
+               }
+            }
 
-                     if (*buf_ptr == '+' || *buf_ptr == '-')
-                     {
-                        buf_ptr++;
-                     }
+            buf_ptr++;
+
+            if (!(ishexa && !seenexp ?
+                 isxdigit (*buf_ptr) : isdigit (*buf_ptr)
+                 ) && *buf_ptr != '.')
+            {
+               if ((ishexa ?
+                   (*buf_ptr != 'P' && *buf_ptr != 'p') :
+                   (*buf_ptr != 'E' && *buf_ptr != 'e')
+                   ) || seenexp)
+               {
+                  break;
+               }
+               else
+               {
+                  seenexp++;
+                  seendot++;
+                  buf_ptr++;
+
+                  if (*buf_ptr == '+' || *buf_ptr == '-')
+                  {
+                     buf_ptr++;
                   }
                }
             }
