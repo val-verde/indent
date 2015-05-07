@@ -315,7 +315,7 @@ extern file_buffer_ty * read_file(
     memcpy(fileptr.name, filename, namelen);
     fileptr.name[namelen] = EOS;
 
-    if (fileptr.data[fileptr.size - 1] != EOL)
+    if ((fileptr.size>0) && (fileptr.data[fileptr.size - 1] != EOL))
     {
         fileptr.data[fileptr.size] = EOL;
         fileptr.size++;
