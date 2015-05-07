@@ -490,7 +490,7 @@ extern exit_values_ty parse (
 
         case rbrace:            /* scanned a } */
             /* stack should have <lbrace> <stmt> or <lbrace> <stmtl> */
-            if (parser_state_tos->p_stack[parser_state_tos->tos - 1] == lbrace)
+            if ((parser_state_tos->tos > 0) && (parser_state_tos->p_stack[parser_state_tos->tos - 1] == lbrace))
             {
                 parser_state_tos->i_l_follow = parser_state_tos->il[--parser_state_tos->tos];
                 parser_state_tos->ind_level  = parser_state_tos->i_l_follow;
@@ -612,6 +612,7 @@ extern void reduce(void)
         switch (parser_state_tos->p_stack[parser_state_tos->tos])
         {
             case stmt:
+                if (parser_state_tos->tos == 0) return;
                 switch (parser_state_tos->p_stack[parser_state_tos->tos - 1])
                 {
                     case stmt:
