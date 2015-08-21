@@ -46,11 +46,6 @@ gperf-cc.c: indent-cc.gperf
 	         gperf-cc.c
 
 if MAINTAINER_MODE
-
 config.h.vc++ config.h.vms @PACKAGE@.lsm :%: Makefile %.in
 	sed -e 's%!VERSION!%@VERSION@%g' $@.in > $@
-
-@PACKAGE@.dsp: @PACKAGE@.dsp.in
-	cat $< | perl -e 'while (<>) {chomp; print "$$_\015\012"; }'  > $@
 endif
-
