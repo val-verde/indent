@@ -5,6 +5,8 @@ SUBDIRS = intl src doc po man regression
 
 BUILT_SOURCES = 
 
+DISTFILES = $(DIST_COMMON:README=README.md) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+
 EXTRA_DIST = 	README.md \
 		config/config.rpath config/mkinstalldirs \
 		ChangeLog-1990 ChangeLog-1998 ChangeLog-2001 \
@@ -50,6 +52,9 @@ CFLAGS+= -I.
 endif
 
 if MAINTAINER_MODE
+README: README.md
+	ln -s $< $@
+
 @PACKAGE@.lsm :%: Makefile %.in
 	sed -e 's%!VERSION!%@VERSION@%g' $@.in > $@
 
