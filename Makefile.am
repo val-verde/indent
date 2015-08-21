@@ -5,7 +5,7 @@ SUBDIRS = intl src doc po man regression
 
 BUILT_SOURCES = 
 
-EXTRA_DIST = 	README \
+EXTRA_DIST = 	README.md \
 		config/config.rpath config/mkinstalldirs \
 		ChangeLog-1990 ChangeLog-1998 ChangeLog-2001 \
 		miscel/make-decc.com miscel/vaxc-make.com miscel/gnuc-make.com \
@@ -50,13 +50,7 @@ CFLAGS+= -I.
 endif
 
 if MAINTAINER_MODE
-README: Makefile miscel/README.in configure.ac
-	sed -e 's%!VERSION!%@VERSION@%g'  miscel/$@.in > $@
-
-miscel/Makefile.mingw32 miscel/makefile.watcom :%: %.in
-	cat $@.in | perl -e 'while (<>) {chomp; print "$$_\015\012"; }'  > $@
-
-miscel/README.vc++ miscel/README.VMS @PACKAGE@.lsm :%: Makefile %.in
+@PACKAGE@.lsm :%: Makefile %.in
 	sed -e 's%!VERSION!%@VERSION@%g' $@.in > $@
 
 tar:
