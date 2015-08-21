@@ -7,6 +7,8 @@ check:
 
 distclean: clean
 
+distdir:
+
 clean:
 	@rm -rf output
 
