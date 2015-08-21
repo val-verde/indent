@@ -1,4 +1,4 @@
-.TH INDENT 1L 
+.TH INDENT 1
 .SH "NAME"
 indent \- changes the appearance of a C program by inserting or deleting whitespace.  
 .SH "SYNOPSIS"
@@ -27,6 +27,11 @@ the default.
 .SH "OPTIONS"
 
 .TP 4
+.B -as\fR, \fB--align-with-spaces\fR
+If using tabs for indentation, use spaces for alignment.
+.br
+See \fB\ INDENTATION\fR.
+.TP
 .B -bad\fR, \fB--blank-lines-after-declarations\fR
 Force blank lines after the declarations.
 .br
@@ -373,6 +378,11 @@ Disables \(oq-ss\(cq.
 .br
 See \fB\ STATEMENTS\fR.
 .TP
+.B -ntac\fR, \fB--dont-tab-align-comments\fR
+Do not pad comments out to the nearest tabstop.
+.br
+See \fB\ COMMENTS\fR.
+.TP
 .B -nut\fR, \fB--no-tabs\fR
 Use spaces instead of tabs.
 .br
@@ -437,6 +447,11 @@ Put a space after each \fBif\fR.
 .br
 See \fB\ STATEMENTS\fR.
 .TP
+.B -sar\fR, \fB--spaces-around-initializers\fR
+Put a space after the \(oq{\(cq and before the \(oq}\(cq in initializers.
+.br
+See \fB\ DECLARATIONS\fR.
+.TP
 .B -saw\fR, \fB--space-after-while\fR
 Put a space after each \fBwhile\fR.
 .br
@@ -451,6 +466,12 @@ See \fB\ STATEMENTS\fR.
 Put the \(oq*\(cq character at the left of comments.
 .br
 See \fB\ COMMENTS\fR.
+.TP
+.B -slc\fR, \fB--single-line-conditionals\fR
+Allow for unbraced conditionals (\fBif\fR, \fBelse\fR, etc.) to have
+their inner statement on the same line.
+.br
+See \fB\ STATEMENTS\fR.
 .TP
 .B -sob\fR, \fB--swallow-optional-blank-lines\fR
 Swallow optional blank lines.
@@ -694,7 +715,7 @@ of options:
 .na
 -nbad -bap -bbo -nbc -br -brs -c33 -cd33 -ncdb -ce -ci4 -cli0
 -cp33 -cs -d0 -di1 -nfc1 -nfca -hnl -i4 -ip0 -l75 -lp -npcs
--nprs -npsl -saf -sai -saw -nsc -nsob -nss
+-nprs -npsl -saf -sai -saw -nsc -nsob -nss -par
 .in -5
 .ad
 .fi
@@ -963,7 +984,8 @@ causes \(oq-c\(cq to become effective.
 
 If the code to the left of the comment exceeds the beginning column,
 the comment column will be extended to the next tabstop column past
-the end of the code, or in the case of preprocessor directives, to one
+the end of the code, unless the \(oq-ntac\(cq option is specified.
+In the case of preprocessor directives,comments are extended to to one
 space past the end of the directive.  This extension lasts only for
 the output of that particular comment.
 
@@ -1101,6 +1123,31 @@ do {
   x--;
 }
 while (x);
+.in -5
+.ad
+.fi
+
+The \(oq-slc\(cq option allows for an unbraced conditional and its inner
+statement to appear on the same line. For example:
+
+.in +5
+.nf
+.na
+if (x) x--;
+else x++;
+.in -5
+.ad
+.fi
+
+Without \(oq-slc\(cq that code would appear as
+
+.in +5
+.nf
+.na
+if (x)
+  x--;
+else
+  x++;
 .in -5
 .ad
 .fi
@@ -1409,9 +1456,84 @@ int one(void)
 .ad
 .fi
 
+
+The \(oq-sar\(cq option affects how \fBindent\fR will render initializer
+lists. Without \(oq-sar\(cq they are formatted like this:
+
+.in +5
+.nf
+.na
+int a[] = {1, 2, 3, 4};
+
+struct s {
+  const char *name;
+  int x;
+} a[] = {
+  {"name", 0},
+  {"a", 1}
+};
+.in -5
+.ad
+.fi
+
+With \(oq-sar\(cq they are formatted like this, with spaces inside the
+braces:
+
+.in +5
+.nf
+.na
+int a[] = { 1, 2, 3, 4 };
+
+struct s {
+  const char *name;
+  int x;
+} a[] = {
+  { "name", 0 },
+  { "a", 1 }
+};
+.in -5
+.ad
+.fi
+
 .SH "INDENTATION"
 
-One issue in the formatting of code is how far each line should be
+The most basic, and most controversial issues with regard to code
+formatting is precisely how indentation should be acoomplished.
+Fortunately, \fBindent\fR supports several different styles of
+identation.  The default is to use tabs for indentation, which is
+specified by the \(oq-ut\(cq option. Assuming the default tab size of
+8, the code would look like this:
+
+.in +5
+.nf
+.na
+int a(int b)
+{
+        return b;
+|------|
+ 1 tab
+}
+.in -5
+.ad
+.fi
+
+For those that prefer spaces to tabs, \(oqindent\(cq provides the
+\(oq-nut\(cq option. The same code would look like this:
+
+.in +5
+.nf
+.na
+int a(int b)
+{
+        return b;
+|------|
+8 spaces
+}
+.in -5
+.ad
+.fi
+
+Another issue in the formatting of code is how far each line should be
 indented from the left margin.  When the beginning of a statement such
 as \fBif\fR or \fBfor\fR is encountered, the indentation level is
 increased by the value specified by the \(oq-i\(cq option.  For example,
@@ -1478,6 +1600,72 @@ if ((((i < 2 &&
 input and output character streams.  These intervals are by default 8
 columns wide, but (as of version 1.2) may be changed by the \(oq-ts\(cq
 option.  Tabs are treated as the equivalent number of spaces.
+
+By default, \fBindent\fR will use tabs to indent as far as possible,
+and then pad with spaces until the desired position is reached. However,
+with the \(oq-as\(cq option, spaces will be used for alignment beyond
+the current indentation level. By default, assuming \(oq-lp\(cq is
+enabled, the code would be indented like so (\(oqt\(cq represents tabs,
+\(oqs\(cq represents spaces):
+
+.in +5
+.nf
+.na
+unsigned long really_long_proc_name(unsigned long x, unsigned long y,
+                                    int a)
+|------||-------||------||-------|__
+   t        t       t       t     ss
+{
+        p1 = first_procedure (second_procedure (p2, p3),
+                              third_procedure (p4, p5));
+|------||------||------|_____
+   t       t       t    sssss
+}
+.in -5
+.ad
+.fi
+
+This is fine, if you assume that whoever is reading the code will honor
+your assumption of 8-space tabs. If the reader was using 4-space tabs,
+it would look like this:
+
+.in +5
+.nf
+.na
+unsigned long really_long_proc_name(unsigned long x, unsigned long y,
+                      int a)
+|---||---||---||---|__
+  t    t    t    t  ss
+{
+        p1 = first_procedure (second_procedure (p2, p3),
+                     third_procedure (p4, p5));
+|---||---||---|______
+  t    t    t  ssssss
+}
+.in -5
+.ad
+.fi
+
+The \(oq-as\(cq option fixes this so that the code will appear consistent
+regardless of what tab size the user users to read the code. This looks
+like:
+
+.in +5
+.nf
+.na
+unsigned long really_long_proc_name(unsigned long x, unsigned long y,
+                                    int a)
+____________________________________
+ssssssssssssssssssssssssssssssssssss
+{
+        p1 = first_procedure (second_procedure (p2, p3),
+                              third_procedure (p4, p5));
+|------|______________________
+   t    ssssssssssssssssssssss
+}
+.in -5
+.ad
+.fi
 
 The indentation of type declarations in old-style function definitions
 is controlled by the \(oq-ip\(cq parameter.  This is a numeric parameter
@@ -1721,7 +1909,7 @@ formatting for a section of a program, place the disabling control
 comment \fB/* *INDENT-OFF* */\fR on a line by itself just before that
 section.  Program text scanned after this control comment is output
 precisely as input with no modifications until the corresponding
-enabling comment is scanned on a line by itself.  The disabling control
+enabling comment is scanned on a line by itself.  The enabling control
 comment is \fB/* *INDENT-ON* */\fR, and any text following the comment
 on the line is also output unformatted.  Formatting begins again with
 the input line following the enabling control comment.
@@ -1806,6 +1994,7 @@ end of \(oqindent.1\(cq.
 
 .nf
 .na
+Copyright (c) 2015 Tim Hentenaar.
 Copyright (c) 2001 David Ingamells.
 Copyright (c) 1999 Carlo Wood.
 Copyright (c) 1995, 1996 Joseph Arceneaux.
@@ -1840,6 +2029,7 @@ the corresponding short option.
 .in +5
 .nf
 .na
+--align-with-spaces                             -as
 --blank-lines-after-commas                      -bc             
 --blank-lines-after-declarations                -bad            
 --blank-lines-after-procedures                  -bap            
@@ -1876,6 +2066,7 @@ the corresponding short option.
 --dont-left-justify-declarations                -ndj  
 --dont-space-special-semicolon                  -nss
 --dont-star-comments                            -nsc            
+--dont-tab-align-comments                       -ntac
 --else-endif-column                             -cp\fIn\fR
 --format-all-comments                           -fca            
 --format-first-column-comments                  -fc1            
@@ -1912,6 +2103,7 @@ the corresponding short option.
 --preserve-mtime				-pmt
 --preprocessor-indentation                      -ppi\fIn\fR
 --procnames-start-lines                         -psl            
+--single-line-conditionals                      -slc
 --space-after-cast                              -cs             
 --space-after-for				-saf
 --space-after-if				-sai
@@ -1919,6 +2111,7 @@ the corresponding short option.
 --space-after-procedure-calls                   -pcs            
 --space-after-while				-saw
 --space-special-semicolon                       -ss             
+--spaces-around-initializers                    -sar
 --standard-output                               -st             
 --start-left-side-of-comments                   -sc             
 --struct-brace-indentation                      -sbi\fIn\fR
@@ -1940,6 +2133,8 @@ Unknown
 \fI$HOME/.indent.pro\fR	holds default options for indent.
 .SH "AUTHORS"
 .br
+Tim Hentenaar
+.br
 Carlo Wood
 .br
 Joseph Arceneaux
@@ -1950,11 +2145,12 @@ David Ingamells
 .SH "HISTORY"
 Derived from the UCB program "indent".
 .SH "COPYING"
-Copyright (C) 1989, 1992, 1993, 1994, 1995, 1996, 2014 Free Software Foundation, Inc.
+Copyright (C) 1989, 1992, 1993, 1994, 1995, 1996, 2014, 2015 Free Software Foundation, Inc.
 Copyright (C) 1995, 1996 Joseph Arceneaux.
 Copyright (C) 1999 Carlo Wood.
 Copyright (C) 2001 David Ingamells.
 Copyright (C) 2013 Łukasz Stelmach.
+Copyright (C) 2015 Tim Hentenaar.
 
 Permission is granted to make and distribute verbatim copies of
 this manual provided the copyright notice and this permission notice
