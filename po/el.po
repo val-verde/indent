@@ -1,0 +1,302 @@
+# indent - Greek localization
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the indent package.
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indent-2.2.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-11 19:55+0100\n"
+"PO-Revision-Date: 2014-01-20 00:55+0200\n"
+"Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/args.c:610
+msgid ""
+"usage: indent file [-o outfile ] [ options ]\n"
+"       indent file1 file2 ... fileN [ options ]\n"
+msgstr ""
+"χρήση: indent αρχείο [-o αρχείοεξόδου ] [ επιλογές ]\n"
+"       indent αρχείο1 αρχείο2 ... αρχείοN [ επιλογές ]\n"
+
+#: src/args.c:676
+#, c-format
+msgid "%s: missing argument to parameter %s\n"
+msgstr "%s: λείπει το όρισμα της παραμέτρου %s\n"
+
+#: src/args.c:801
+#, c-format
+msgid "%s: unknown option \"%s\"\n"
+msgstr "%s: άγνωστη επιλογή \"%s\"\n"
+
+#: src/args.c:811
+#, c-format
+msgid "option: %s\n"
+msgstr "επιλογή: %s\n"
+
+#: src/args.c:827
+#, c-format
+msgid "GNU indent %s\n"
+msgstr "GNU indent %s\n"
+
+#: src/args.c:912
+#, c-format
+msgid "%s: option ``%s'' requires a numeric parameter\n"
+msgstr "%s: η επιλογή ``%s'' απαιτεί αριθμητική παράμετρο\n"
+
+#: src/args.c:920
+#, c-format
+msgid "set_option: internal error: p_type %d\n"
+msgstr "ορισμός_επιλογής: εσωτερικό σφάλμα: p_type %d\n"
+
+#: src/args.c:976
+msgid "Profile contains an unterminated comment"
+msgstr "Το προφίλ περιέχει ένα μη τερματισμένο σχόλιο"
+
+#: src/args.c:1014
+msgid "Profile contains unpalatable characters"
+msgstr "Το προφίλ περιέχει μη ευπρόσδεκτους χαρακτήρες"
+
+#: src/args.c:1182
+#, c-format
+msgid "File named by environment variable %s does not exist or is not readable"
+msgstr "Το αρχείο που ονομάστηκε με την μεταβλητή περιβάλλοντος %s δεν υπάρχει ή δεν είναι αναγνώσιμο"
+
+#: src/backup.c:466
+#, c-format
+msgid "indent:  Strange version-control value\n"
+msgstr "indent:  Περίεργη τιμή ελέγχου-έκδοσης\n"
+
+#: src/backup.c:467
+#, c-format
+msgid "indent:  Using numbered-existing\n"
+msgstr ""
+
+#: src/backup.c:498
+#, c-format
+msgid "indent: Can't make backup filename of %s\n"
+msgstr "indent: Δεν μπορεί να δημιουργηθεί το όνομα αρχείου αντιγράφου ασφαλείας %s\n"
+
+#: src/backup.c:506
+#, c-format
+msgid "Can't open backup file %s"
+msgstr "Δεν μπορεί να ανοιχθεί το αρχείο αντιγράφου ασφαλείας %s"
+
+#: src/backup.c:513
+#, c-format
+msgid "Can't write to backup file %s"
+msgstr "Δεν μπορεί να γίνει γράψιμο στο αρχείο αντιγράφου ασφαλείας %s"
+
+#: src/backup.c:526
+#, c-format
+msgid "Can't preserve modification time on backup file %s"
+msgstr "Δεν μπορεί να διατηρηθεί η ημερομηνία τροποποίησης στο αρχείο αντιγράφου ασφαλείας %s"
+
+#: src/globs.c:49 src/globs.c:74
+#, c-format
+msgid "indent: Virtual memory exhausted.\n"
+msgstr "indent: Η εικονική μνήμη εξαντλήθηκε.\n"
+
+#: src/globs.c:93
+#, c-format
+msgid "indent: %s:%d: %s:"
+msgstr "indent: %s:%d: %s:"
+
+#: src/globs.c:109
+#, c-format
+msgid "indent: Fatal Error: "
+msgstr "indent: Κρίσιμο σφάλμα: "
+
+#: src/globs.c:119
+#, c-format
+msgid "indent: System Error: "
+msgstr "indent: Σφάλμα συστήματος: "
+
+#: src/globs.h:27
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: src/globs.h:31
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: src/indent.c:187
+msgid "Ran out of memory"
+msgstr "Ανεπάρκεια μνήμης"
+
+#: src/indent.c:596 src/indent.c:1318
+#, c-format
+msgid "Extra %c"
+msgstr "Επιπλέον %c"
+
+#: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
+msgid "Line broken"
+msgstr "Σπασμένη γραμμή"
+
+#: src/indent.c:2115
+msgid "Unmatched #else"
+msgstr "Μη ταιριασμένο #else"
+
+#: src/indent.c:2116
+msgid "Unmatched #elif"
+msgstr "Μη ταιριασμένο #elif"
+
+#: src/indent.c:2143
+msgid "Unmatched #endif"
+msgstr "Μη ταιριασμένο #endif"
+
+#: src/indent.c:2563
+msgid "EOF encountered in comment"
+msgstr "Ανέκυψε EOF σε σχόλιο"
+
+#: src/indent.c:2802
+msgid "Unexpected end of file"
+msgstr "Απροσδόκητο τέλος αρχείου"
+
+#: src/indent.c:2808
+#, c-format
+msgid "There were %d non-blank output lines and %d comments\n"
+msgstr "Υπήρξαν %d μη-κενές γραμμές εξόδου και %d σχόλια\n"
+
+#: src/indent.c:2812
+#, c-format
+msgid "(Lines with comments)/(Lines with code): %6.3f\n"
+msgstr "(Γραμμές με σχόλια)/(Γραμμές με κώδικα): %6.3f\n"
+
+#: src/indent.c:2836
+msgid "Line broken 2"
+msgstr "Σπασμένη γραμμή 2"
+
+#: src/indent.c:3059
+#, c-format
+msgid "indent: only one output file (2nd was %s)\n"
+msgstr "indent: μόνο ένα αρχείο εξόδου (το 2ο ήταν %s)\n"
+
+#: src/indent.c:3068 src/indent.c:3094
+#, c-format
+msgid "indent: only one input file when output file is specified\n"
+msgstr "indent: μόνο ένα αρχείο εισόδου όταν καθορίζεται το αρχείο εξόδου\n"
+
+#: src/indent.c:3082 src/indent.c:3129
+#, c-format
+msgid "indent: can't have filenames when specifying standard input\n"
+msgstr "indent: δεν μπορούν να υπάρχουν ονόματα αρχείων όταν καθορίζεται τυπική είσοδος\n"
+
+#: src/indent.c:3102
+#, c-format
+msgid "indent: only one input file when stdout is used\n"
+msgstr "indent: μόνο ένα αρχείο εισόδου όταν χρησιμοποιείται stdout\n"
+
+#: src/indent.c:3138
+msgid "command line"
+msgstr "γραμμή εντολών"
+
+#: src/indent.c:3330
+#, c-format
+msgid "Read profile %s\n"
+msgstr "Ανάγνωση προφίλ %s\n"
+
+#: src/code_io.c:169
+msgid "Internal buffering error"
+msgstr "Εσωτερικό σφάλμα ενδιάμεσης μνήμης"
+
+#: src/code_io.c:262
+#, c-format
+msgid "Can't open input file %s"
+msgstr "Δεν μπορεί να ανοίξει το αρχείο εισόδου %s"
+
+#: src/code_io.c:267
+#, c-format
+msgid "Can't stat input file %s"
+msgstr "Δεν μπορεί να κάνει stat το αρχείο εισόδου %s"
+
+#: src/code_io.c:272
+#, c-format
+msgid "Warning: Zero-length file %s"
+msgstr "Προειδοποίηση: Αρχείο μηδενικού-μήκους %s"
+
+#: src/code_io.c:280
+#, c-format
+msgid "File %s is too big to read"
+msgstr "Το αρχείο %s είναι πολύ μεγάλο για να αναγνωστεί"
+
+#: src/code_io.c:288
+#, c-format
+msgid "System problem reading file %s"
+msgstr "Πρόβλημα συστήματος κατά την ανάγνωση του αρχείου %s"
+
+#: src/code_io.c:312
+#, c-format
+msgid "Error reading input file %s"
+msgstr "Σφάλμα ανάγνωσης του αρχείου εισόδου %s"
+
+#: src/code_io.c:317
+#, c-format
+msgid "Error closeing input file %s"
+msgstr "Σφάλμα κλεισίματος του αρχείου εισόδου %s"
+
+#: src/code_io.c:505
+#, c-format
+msgid "Warning: File %s contains NULL-characters\n"
+msgstr "Προειδοποίηση: Το αρχείο %s περιέχει χαρακτήρες NULL\n"
+
+#: src/lexi.c:787
+msgid "Unterminated character constant"
+msgstr "Μη τερματισμένη σταθερά χαρακτήρα"
+
+#: src/lexi.c:788
+msgid "Unterminated string constant"
+msgstr "Μη τερματισμένη σταθερά συμβολοσειράς"
+
+#: src/lexi.c:1034
+#, c-format
+msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
+msgstr "ασαφής εκχώρηση παλιού στυλ στο \"=%c\".  Υποθέτοντας ότι \"= %c\"\n"
+
+#: src/output.c:1312
+#, c-format
+msgid "indent: can't create %s\n"
+msgstr "indent: δεν μπορεί να δημιουργηθεί %s\n"
+
+#: src/output.c:1351
+#, c-format
+msgid "Can't close output file %s"
+msgstr "Δεν μπορεί να κλείσει το αρχείο εξόδου %s"
+
+#: src/output.c:1364
+#, c-format
+msgid "Can't preserve modification time on output file %s"
+msgstr "Δεν μπορεί να διατηρηθεί η ημερομηνία τροποποίησης στο αρχείο εξόδου %s"
+
+#: src/parse.c:447
+msgid "Unmatched 'else'"
+msgstr "Μη ταιριασμένο 'else'"
+
+#: src/parse.c:473
+msgid "Stmt nesting error."
+msgstr "Σφάλμα ένθεσης stmt."
+
+#: src/parse.c:515
+msgid "Unknown code to parser"
+msgstr "Άγνωστος κώδικας στον αναλυτή"
+
+#: src/parse.c:525
+#, c-format
+msgid "ParseStack [%d]:\n"
+msgstr "ParseStack [%d]:\n"
+
+#: src/parse.c:529
+#, c-format
+msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
+msgstr "  stack[%d] =>   stack: %d   ind_level: %d\n"
+
+#: src/wildexp.c:126
+msgid "CANNOT FIND '@' FILE!"
+msgstr "ΤΟ ΑΡΧΕΙΟ '@' ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΒΡΕΘΕΙ!"

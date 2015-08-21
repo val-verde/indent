@@ -1,106 +1,107 @@
-# indent sk.po
-# Copyright (C) 1999, 2002, 2008 Free Software Foundation, Inc.
+# Vietnamese translation for Indent.
+# Copyright © 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008.
-# Miroslav Vasko <vasko@debian.cz>, 1999.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-11 19:55+0100\n"
-"PO-Revision-Date: 2008-05-22 06:36+0200\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"PO-Revision-Date: 2008-05-19 16:48+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
 
 #: src/args.c:610
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"použitie: indent súbor [-o výstupný_súbor ] [ voľby ]\n"
-"          indent súbor1 súbor2 ... súborN [ voľby ]\n"
+"sử dụng: indent tập_tin [-o tập_tin_xuất ] [ tùy_chọn ]\n"
+"       indent tập_tin1 tập_tin2 ... tập_tinN [ tùy_chọn ]\n"
 
 #: src/args.c:676
 #, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "%s: chýbajúci argument k parametru %s\n"
+msgstr "%s: thiếu đối số đối với tham số %s\n"
 
 #: src/args.c:801
 #, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "%s: neznáma voľba \"%s\"\n"
+msgstr "%s: không rõ tùy chọn « %s »\n"
 
 #: src/args.c:811
 #, c-format
 msgid "option: %s\n"
-msgstr "voľba: %s\n"
+msgstr "tùy chọn: %s\n"
 
 #: src/args.c:827
 #, c-format
 msgid "GNU indent %s\n"
-msgstr "GNU indent: %s\n"
+msgstr "GNU indent %s\n"
 
 #: src/args.c:912
 #, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "%s: voľba ``%s'' vyžaduje ako parameter číslo\n"
+msgstr "%s: tùy chọn « %s » cần thiết một tham số thuộc số\n"
 
 #: src/args.c:920
 #, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "set_option: interná chyba: p_type %d\n"
+msgstr "set_option: lỗi nội bộ : p_type %d\n"
 
 #: src/args.c:976
 msgid "Profile contains an unterminated comment"
-msgstr "Profil obsahuje neukončený komentár"
+msgstr "Hồ sơ chứa một ghi chú chưa chấm dứt"
 
 #: src/args.c:1014
 msgid "Profile contains unpalatable characters"
-msgstr "Profil obsahuje nepríjemné znaky"
+msgstr "Hồ sơ chứa ký tự sai"
 
 #: src/args.c:1182
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "Súbor určený premennou prostredia %s neexistuje alebo je nečitateľný"
+msgstr "Biến môi trường %s đặt tên của tập tin không tồn tại hay không thể đọc được"
 
 #: src/backup.c:466
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Divná hodnota version-control\n"
+msgstr "indent: giá trị điều khiển phiên bản lạ\n"
 
 #: src/backup.c:467
 #, c-format
 msgid "indent:  Using numbered-existing\n"
-msgstr "indent:  Použijú sa existujúce očíslované\n"
+msgstr "indent: dùng đánh số-tôn tại\n"
 
 #: src/backup.c:498
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: Nemôžem vytvoriť záložnú kópiu súboru %s\n"
+msgstr "indent: không thể tạo tên tập tin sao lưu của %s\n"
 
 #: src/backup.c:506
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Nemôžem otvoriť záložný súbor %s"
+msgstr "Không thể mở tập tin sao lưu %s"
 
 #: src/backup.c:513
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "Nemôžem zapísať do záložného súboru %s"
+msgstr "Không thể ghi vào tập tin sao lưu %s"
 
 #: src/backup.c:526
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
-msgstr "Nemôžem zachovať čas zmeny záložného súboru %s"
+msgstr "Không thể bảo tồn giờ sửa đổi tập tin sao lưu %s"
 
 #: src/globs.c:49 src/globs.c:74
 #, c-format
 msgid "indent: Virtual memory exhausted.\n"
-msgstr "indent: Vyčerpaná virtuálna pamäť.\n"
+msgstr "indent: cạn bộ nhớ ảo.\n"
 
 #: src/globs.c:93
 #, c-format
@@ -110,191 +111,191 @@ msgstr "indent: %s:%d: %s:"
 #: src/globs.c:109
 #, c-format
 msgid "indent: Fatal Error: "
-msgstr "indent: Závažná chyba: "
+msgstr "indent: lỗi nghiêm trọng: "
 
 #: src/globs.c:119
 #, c-format
 msgid "indent: System Error: "
-msgstr "indent: Systémová chyba: "
+msgstr "indent: lỗi hệ thống: "
 
 #: src/globs.h:27
 msgid "Warning"
-msgstr "Upozornenie"
+msgstr "Cảnh báo"
 
 #: src/globs.h:31
 msgid "Error"
-msgstr "Chyba"
+msgstr "Lỗi"
 
 #: src/indent.c:187
 msgid "Ran out of memory"
-msgstr "Beh vyčerpal pamäť"
+msgstr "Tràn bộ nhớ"
 
 #: src/indent.c:596 src/indent.c:1318
 #, c-format
 msgid "Extra %c"
-msgstr "Navyše %c"
+msgstr "%c bổ sung"
 
 #: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
 msgid "Line broken"
-msgstr "Riadok poškodený"
+msgstr "Dòng bị ngắt"
 
 #: src/indent.c:2115
 msgid "Unmatched #else"
-msgstr "Nezodpovedaj�ce #else"
+msgstr "Chưa khớp #else"
 
 #: src/indent.c:2116
 msgid "Unmatched #elif"
-msgstr "Nezodpovedajúce #elif"
+msgstr "Chưa khớp #elif"
 
 #: src/indent.c:2143
 msgid "Unmatched #endif"
-msgstr "Nezodpovedajúce #endif"
+msgstr "Chưa khớp #endif"
 
 #: src/indent.c:2563
 msgid "EOF encountered in comment"
-msgstr "V komentári sa vyskytol koniec súboru"
+msgstr "Gặp kết thúc tập tin trong ghi chú"
 
 #: src/indent.c:2802
 msgid "Unexpected end of file"
-msgstr "Neočakávaný koniec súboru"
+msgstr "Gặp kết thức tập tin bất thường"
 
 #: src/indent.c:2808
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "Spracovaných %d neprázdnych výstupných riadkov a %d komentárov\n"
+msgstr "Có %d dòng kết xuất không trống và %d ghi chú\n"
 
 #: src/indent.c:2812
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(Riadkov s komentármi)/(Riadkov s kódom): %6.3f\n"
+msgstr "(Dòng có ghi chú)/(Dòng có mã): %6.3f\n"
 
 #: src/indent.c:2836
 msgid "Line broken 2"
-msgstr "Riadok poškodený 2"
+msgstr "Dòng bị ngắt 2"
 
 #: src/indent.c:3059
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
-msgstr "indent: iba jeden výstupný súbor (druhý bol %s)\n"
+msgstr "indent: chỉ một tập tin kết xuất (thứ hai là %s)\n"
 
 #: src/indent.c:3068 src/indent.c:3094
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
-msgstr "indent: iba jeden vstupný súbor, keď je zadaný výstupný súbor\n"
+msgstr "indent: chỉ một tập tin nhập liệu khi tập tin kết xuất được ghi rõ\n"
 
 #: src/indent.c:3082 src/indent.c:3129
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
-msgstr "indent: nemožno zadať súbory, ak ste zadali štandardný vstup\n"
+msgstr "indent: không thể có tên tập tin khi ghi rõ đầu vào tiêu chuẩn\n"
 
 #: src/indent.c:3102
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
-msgstr "indent: iba jeden vstupný súbor, keď je použitý štandardný výstup\n"
+msgstr "indent: chỉ một tập tin nhập liệu khi sử dụng đầu vào tiêu chuẩn\n"
 
 #: src/indent.c:3138
 msgid "command line"
-msgstr "príkazový riadok"
+msgstr "dòng lệnh"
 
 #: src/indent.c:3330
 #, c-format
 msgid "Read profile %s\n"
-msgstr "Čítať profil %s\n"
+msgstr "Đọc hồ sơ %s\n"
 
 #: src/code_io.c:169
 msgid "Internal buffering error"
-msgstr "Interná chyba vyrovnávacej pamäte"
+msgstr "Lỗi đệm nội bộ"
 
 #: src/code_io.c:262
 #, c-format
 msgid "Can't open input file %s"
-msgstr "Nemôžem otvoriť vstupný súbor %s"
+msgstr "Không thể mở tập tin nhập liệu %s"
 
 #: src/code_io.c:267
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Nemôžem zistiť stav vstupného súboru %s"
+msgstr "Không thể lấy trạng thái về tập tin %s"
 
 #: src/code_io.c:272
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Varovanie: Súbor %s má nulovú dĺžku"
+msgstr "Cảnh báo : tập tin có chiều dài số không %s"
 
 #: src/code_io.c:280
 #, c-format
 msgid "File %s is too big to read"
-msgstr "Súbor %s je príliš veľký na čítanie"
+msgstr "Tập tin %s quá lớn để đọc"
 
 #: src/code_io.c:288
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Systémový problém pri čítaní súboru %s"
+msgstr "Gặp lỗi hệ thống khi đọc tập tin %s"
 
 #: src/code_io.c:312
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Chyba pri čítaní vstupného súboru %s"
+msgstr "Gặp lỗi khi đọc tập tin nhập liệu %s"
 
 #: src/code_io.c:317
 #, c-format
 msgid "Error closeing input file %s"
-msgstr "Chyba pri zatváraní vstupného súboru %s"
+msgstr "Gặp lỗi khi đóng tập tin nhập liệu %s"
 
 #: src/code_io.c:505
 #, c-format
 msgid "Warning: File %s contains NULL-characters\n"
-msgstr "Upozornenie: Súbor %s obsahuje nulové znaky\n"
+msgstr "Cảnh báo : tập tin %s chứa ký tự rỗng (NULL)\n"
 
 #: src/lexi.c:787
 msgid "Unterminated character constant"
-msgstr "Neukončená znaková konštanta"
+msgstr "Hằng số ký tự chưa chấm dứt"
 
 #: src/lexi.c:788
 msgid "Unterminated string constant"
-msgstr "Neukončená reťazcová konštanta"
+msgstr "Hằng số chuỗi chưa chấm dứt"
 
 #: src/lexi.c:1034
 #, c-format
 msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
-msgstr "nejednoznačnosť priradenia starého štýlu v \"=%c\". Predpokladá sa \"= %c\"\n"
+msgstr "« =%c » có mơ hồ gán kiểu cũ nên giả sử « = %c »\n"
 
 #: src/output.c:1312
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: nemôžem vytvoriť %s\n"
+msgstr "indent: không thể tạo %s\n"
 
 #: src/output.c:1351
 #, c-format
 msgid "Can't close output file %s"
-msgstr "Nemôžem zatvoriť výstupný súbor %s"
+msgstr "Không thể đóng tập tin kết xuất %s"
 
 #: src/output.c:1364
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Nemôžem zachovať čas zmeny výstupného súboru %s"
+msgstr "Không thể bảo tồn giờ sửa đổi tập tin kết xuất %s"
 
 #: src/parse.c:447
 msgid "Unmatched 'else'"
-msgstr "Nezodpovedajúce 'else'"
+msgstr "Chưa khớp 'else'"
 
 #: src/parse.c:473
 msgid "Stmt nesting error."
-msgstr "Chyba vnorenia stmt."
+msgstr "Lỗi lồng nhau câu lệnh"
 
 #: src/parse.c:515
 msgid "Unknown code to parser"
-msgstr "Analyzátor nepozná tento kód"
+msgstr "Bộ phân tích ngữ pháp gặp mã lạ"
 
 #: src/parse.c:525
 #, c-format
 msgid "ParseStack [%d]:\n"
-msgstr "Zásobník analyzátora [%d]:\n"
+msgstr "ParseStack [%d]:\n"
 
 #: src/parse.c:529
 #, c-format
 msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  zásobník[%d] =>   zásobník: %d   ind_úroveň: %d\n"
+msgstr "  đống[%d] =>   đống: %d   mức_ind: %d\n"
 
 #: src/wildexp.c:126
 msgid "CANNOT FIND '@' FILE!"
-msgstr "NEPODARILO SA NÁJSŤ SÚBOR '@'!"
+msgstr "Không tìm thấy tập tin « @ » !"

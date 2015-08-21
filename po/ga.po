@@ -1,106 +1,107 @@
-# indent sk.po
-# Copyright (C) 1999, 2002, 2008 Free Software Foundation, Inc.
+# Irish translations for indent.
+# Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008.
-# Miroslav Vasko <vasko@debian.cz>, 1999.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-11 19:55+0100\n"
-"PO-Revision-Date: 2008-05-22 06:36+0200\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"PO-Revision-Date: 2008-05-16 10:38-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: src/args.c:610
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"pou≈æitie: indent s√∫bor [-o v√Ωstupn√Ω_s√∫bor ] [ voƒæby ]\n"
-"          indent s√∫bor1 s√∫bor2 ... s√∫borN [ voƒæby ]\n"
+"˙s·id: indent comhad [-o aschomhad] [ roghanna ]\n"
+"       indent comhad1 comhad2 ... comhadN [ roghanna ]\n"
 
 #: src/args.c:676
 #, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "%s: ch√Ωbaj√∫ci argument k parametru %s\n"
+msgstr "%s: t· argÛint de dhÌth i ndiaidh an pharaimÈadair %s\n"
 
 #: src/args.c:801
 #, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "%s: nezn√°ma voƒæba \"%s\"\n"
+msgstr "%s: rogha anaithnid \"%s\"\n"
 
 #: src/args.c:811
 #, c-format
 msgid "option: %s\n"
-msgstr "voƒæba: %s\n"
+msgstr "rogha: %s\n"
 
 #: src/args.c:827
 #, c-format
 msgid "GNU indent %s\n"
-msgstr "GNU indent: %s\n"
+msgstr "GNU indent %s\n"
 
 #: src/args.c:912
 #, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "%s: voƒæba ``%s'' vy≈æaduje ako parameter ƒç√≠slo\n"
+msgstr "%s: t· paraimÈadar uimhri˙il de dhÌth tar Èis rogha ``%s''\n"
 
 #: src/args.c:920
 #, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "set_option: intern√° chyba: p_type %d\n"
+msgstr "set_option: earr·id inmhe·nach: p_type %d\n"
 
 #: src/args.c:976
 msgid "Profile contains an unterminated comment"
-msgstr "Profil obsahuje neukonƒçen√Ω koment√°r"
+msgstr "T· nÛta tr·chta gan chrÌochn˙ sa phrÛifÌl"
 
 #: src/args.c:1014
 msgid "Profile contains unpalatable characters"
-msgstr "Profil obsahuje nepr√≠jemn√© znaky"
+msgstr "T· carachtair dho-ghlactha sa phrÛifÌl"
 
 #: src/args.c:1182
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "S√∫bor urƒçen√Ω premennou prostredia %s neexistuje alebo je neƒçitateƒæn√Ω"
+msgstr "NÌl an comhad ainmnithe in athrÛg timpeallachta %s ann, nÛ nÌl sÈ inlÈite"
 
+# Irish is clearer
 #: src/backup.c:466
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Divn√° hodnota version-control\n"
+msgstr "indent:  Luach aisteach don athrÛg thimpeallachta VERSION_CONTROL\n"
 
+# Irish is clearer
 #: src/backup.c:467
 #, c-format
 msgid "indent:  Using numbered-existing\n"
-msgstr "indent:  Pou≈æij√∫ sa existuj√∫ce oƒç√≠slovan√©\n"
+msgstr "indent:  `numbered_existing' in ˙s·id\n"
 
 #: src/backup.c:498
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: Nem√¥≈æem vytvori≈• z√°lo≈æn√∫ k√≥piu s√∫boru %s\n"
+msgstr "indent: NÌorbh fhÈidir comhad c˙ltaca de %s a dhÈanamh\n"
 
 #: src/backup.c:506
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Nem√¥≈æem otvori≈• z√°lo≈æn√Ω s√∫bor %s"
+msgstr "NÌorbh fhÈidir an comhad c˙ltaca %s a oscailt"
 
 #: src/backup.c:513
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "Nem√¥≈æem zap√≠sa≈• do z√°lo≈æn√©ho s√∫boru %s"
+msgstr "NÌorbh fhÈidir scrÌobh a dhÈanamh sa chomhad c˙ltaca %s"
 
 #: src/backup.c:526
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
-msgstr "Nem√¥≈æem zachova≈• ƒças zmeny z√°lo≈æn√©ho s√∫boru %s"
+msgstr "NÌorbh fhÈidir an t-am mionathraithe a choime·d ar an chomhad c˙ltaca %s"
 
 #: src/globs.c:49 src/globs.c:74
 #, c-format
 msgid "indent: Virtual memory exhausted.\n"
-msgstr "indent: Vyƒçerpan√° virtu√°lna pam√§≈•.\n"
+msgstr "indent: Cuimhne fhÌor˙il Ìdithe.\n"
 
 #: src/globs.c:93
 #, c-format
@@ -110,191 +111,199 @@ msgstr "indent: %s:%d: %s:"
 #: src/globs.c:109
 #, c-format
 msgid "indent: Fatal Error: "
-msgstr "indent: Z√°va≈æn√° chyba: "
+msgstr "indent: Earr·id Mharfach: "
 
 #: src/globs.c:119
 #, c-format
 msgid "indent: System Error: "
-msgstr "indent: Syst√©mov√° chyba: "
+msgstr "indent: Earr·id ChÛrais: "
 
 #: src/globs.h:27
 msgid "Warning"
-msgstr "Upozornenie"
+msgstr "Rabhadh"
 
 #: src/globs.h:31
 msgid "Error"
-msgstr "Chyba"
+msgstr "Earr·id"
 
 #: src/indent.c:187
 msgid "Ran out of memory"
-msgstr "Beh vyƒçerpal pam√§≈•"
+msgstr "Cuimhne Ìdithe"
 
 #: src/indent.c:596 src/indent.c:1318
 #, c-format
 msgid "Extra %c"
-msgstr "Navy≈°e %c"
+msgstr "%c breise"
 
 #: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
 msgid "Line broken"
-msgstr "Riadok po≈°koden√Ω"
+msgstr "LÌne bhriste"
 
 #: src/indent.c:2115
 msgid "Unmatched #else"
-msgstr "NezodpovedajÔøΩce #else"
+msgstr "#else corr"
 
 #: src/indent.c:2116
 msgid "Unmatched #elif"
-msgstr "Nezodpovedaj√∫ce #elif"
+msgstr "#elif corr"
 
 #: src/indent.c:2143
 msgid "Unmatched #endif"
-msgstr "Nezodpovedaj√∫ce #endif"
+msgstr "#endif corr"
 
 #: src/indent.c:2563
 msgid "EOF encountered in comment"
-msgstr "V koment√°ri sa vyskytol koniec s√∫boru"
+msgstr "Buaileadh comhadchrÌoch i nÛta tr·chta"
 
+# in FARF -KPS
 #: src/indent.c:2802
 msgid "Unexpected end of file"
-msgstr "Neoƒçak√°van√Ω koniec s√∫boru"
+msgstr "ComhadchrÌoch gan choinne"
 
 #: src/indent.c:2808
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "Spracovan√Ωch %d nepr√°zdnych v√Ωstupn√Ωch riadkov a %d koment√°rov\n"
+msgstr "%d lÌne aschuir le h·bhar agus %d nÛta tr·chta\n"
 
 #: src/indent.c:2812
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(Riadkov s koment√°rmi)/(Riadkov s k√≥dom): %6.3f\n"
+msgstr "(LÌnte le nÛtaÌ tr·chta)/(LÌnte le bunchÛd): %6.3f\n"
 
 #: src/indent.c:2836
 msgid "Line broken 2"
-msgstr "Riadok po≈°koden√Ω 2"
+msgstr "LÌne bhriste 2"
 
 #: src/indent.c:3059
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
-msgstr "indent: iba jeden v√Ωstupn√Ω s√∫bor (druh√Ω bol %s)\n"
+msgstr "indent: nÌ cheadaÌtear ach aschomhad amh·in (an dara ceann: %s)\n"
 
 #: src/indent.c:3068 src/indent.c:3094
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
-msgstr "indent: iba jeden vstupn√Ω s√∫bor, keƒè je zadan√Ω v√Ωstupn√Ω s√∫bor\n"
+msgstr "indent: nÌ cheadaÌtear ach inchomhad amh·in nuair at· aschomhad ceaptha\n"
 
 #: src/indent.c:3082 src/indent.c:3129
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
-msgstr "indent: nemo≈æno zada≈• s√∫bory, ak ste zadali ≈°tandardn√Ω vstup\n"
+msgstr "indent: nÌ cheadaÌtear comhaid agus an t-ionchur caighde·nach sonraithe\n"
 
 #: src/indent.c:3102
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
-msgstr "indent: iba jeden vstupn√Ω s√∫bor, keƒè je pou≈æit√Ω ≈°tandardn√Ω v√Ωstup\n"
+msgstr "indent: nÌ cheadaÌtear ach inchomhad amh·in leis an aschur caighde·nach\n"
 
 #: src/indent.c:3138
 msgid "command line"
-msgstr "pr√≠kazov√Ω riadok"
+msgstr "lÌne na n-orduithe"
 
 #: src/indent.c:3330
 #, c-format
 msgid "Read profile %s\n"
-msgstr "ƒå√≠ta≈• profil %s\n"
+msgstr "PrÛifÌl %s lÈite\n"
 
 #: src/code_io.c:169
 msgid "Internal buffering error"
-msgstr "Intern√° chyba vyrovn√°vacej pam√§te"
+msgstr "Earr·id mhaol·naithe inmhe·nach"
 
 #: src/code_io.c:262
 #, c-format
 msgid "Can't open input file %s"
-msgstr "Nem√¥≈æem otvori≈• vstupn√Ω s√∫bor %s"
+msgstr "NÌ fÈidir an t-inchomhad %s a oscailt"
 
+# French use "stat()" too
 #: src/code_io.c:267
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Nem√¥≈æem zisti≈• stav vstupn√©ho s√∫boru %s"
+msgstr "NÌ fÈidir an t-inchomhad %s a rochtain le stat()"
 
 #: src/code_io.c:272
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Varovanie: S√∫bor %s m√° nulov√∫ dƒ∫≈æku"
+msgstr "Rabhadh: T· an comhad %s folamh"
 
 #: src/code_io.c:280
 #, c-format
 msgid "File %s is too big to read"
-msgstr "S√∫bor %s je pr√≠li≈° veƒæk√Ω na ƒç√≠tanie"
+msgstr "T· an comhad %s rÛmhÛr"
 
 #: src/code_io.c:288
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Syst√©mov√Ω probl√©m pri ƒç√≠tan√≠ s√∫boru %s"
+msgstr "Fadhb leis an gcÛras agus comhad %s · lÈamh"
 
 #: src/code_io.c:312
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Chyba pri ƒç√≠tan√≠ vstupn√©ho s√∫boru %s"
+msgstr "Earr·id agus inchomhad %s · lÈamh"
 
 #: src/code_io.c:317
 #, c-format
 msgid "Error closeing input file %s"
-msgstr "Chyba pri zatv√°ran√≠ vstupn√©ho s√∫boru %s"
+msgstr "Earr·id agus inchomhad %s · dh˙nadh"
 
 #: src/code_io.c:505
 #, c-format
 msgid "Warning: File %s contains NULL-characters\n"
-msgstr "Upozornenie: S√∫bor %s obsahuje nulov√© znaky\n"
+msgstr "Rabhadh: Carachtair NULL sa chomhad %s\n"
 
+# in FARF -KPS
 #: src/lexi.c:787
 msgid "Unterminated character constant"
-msgstr "Neukonƒçen√° znakov√° kon≈°tanta"
+msgstr "Tairiseach carachtair gan chrÌochn˙"
 
+# in FARF -KPS
 #: src/lexi.c:788
 msgid "Unterminated string constant"
-msgstr "Neukonƒçen√° re≈•azcov√° kon≈°tanta"
+msgstr "Tairiseach teaghr·in gan chrÌochn˙"
 
 #: src/lexi.c:1034
 #, c-format
 msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
-msgstr "nejednoznaƒçnos≈• priradenia star√©ho ≈°t√Ωlu v \"=%c\". Predpoklad√° sa \"= %c\"\n"
+msgstr "t· an slonn \"=%c\" dÈbhrÌoch (sannach·n ar an sean-nÛs).  Glacadh le \"= %c\"\n"
 
 #: src/output.c:1312
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: nem√¥≈æem vytvori≈• %s\n"
+msgstr "indent: nÌ fÈidir %s a chruth˙\n"
 
 #: src/output.c:1351
 #, c-format
 msgid "Can't close output file %s"
-msgstr "Nem√¥≈æem zatvori≈• v√Ωstupn√Ω s√∫bor %s"
+msgstr "NÌ fÈidir an t-aschomhad %s a dh˙nadh"
 
 #: src/output.c:1364
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Nem√¥≈æem zachova≈• ƒças zmeny v√Ωstupn√©ho s√∫boru %s"
+msgstr "NÌorbh fhÈidir an t-am mionathraithe a choime·d ar an aschomhad %s"
 
 #: src/parse.c:447
 msgid "Unmatched 'else'"
-msgstr "Nezodpovedaj√∫ce 'else'"
+msgstr "'else' corr"
 
 #: src/parse.c:473
 msgid "Stmt nesting error."
-msgstr "Chyba vnorenia stmt."
+msgstr "R·iteas neadaithe go mÌcheart."
 
 #: src/parse.c:515
 msgid "Unknown code to parser"
-msgstr "Analyz√°tor nepozn√° tento k√≥d"
+msgstr "CÛd anaithnid chuig an phars·laÌ"
 
+# cf French -KPS
 #: src/parse.c:525
 #, c-format
 msgid "ParseStack [%d]:\n"
-msgstr "Z√°sobn√≠k analyz√°tora [%d]:\n"
+msgstr "ParseStack [%d]:\n"
 
 #: src/parse.c:529
 #, c-format
 msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  z√°sobn√≠k[%d] =>   z√°sobn√≠k: %d   ind_√∫rove≈à: %d\n"
+msgstr "  cruach[%d]=>   cruach: %d  leibhÈal: %d\n"
 
 #: src/wildexp.c:126
 msgid "CANNOT FIND '@' FILE!"
-msgstr "NEPODARILO SA N√ÅJS≈§ S√öBOR '@'!"
+msgstr "NÕ F…IDIR AN COMHAD '@' A FH¡IL!"
+
+#~ msgid "usage: indent file [-o outfile ] [ options ]\n"
+#~ msgstr "˙s·id: indent comhad [-o aschomhad ] [ roghanna ]\n"

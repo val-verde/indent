@@ -1,40 +1,40 @@
-# Catalan messages for indent
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Josep Maria Balasch <jbalasch@mailtvc.com>, 2002.
+# Mesajele în limba românã pentru pachetul indent.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "POT-Creation-Date: 2002-03-21 21:44+0100\n"
-"PO-Revision-Date: 2002-10-27 20:30GMT\n"
-"Last-Translator: Josep Maria Balasch <jbalasch@mailtvc.com>\n"
-"Language-Team: Catalan <ca@dodds.net>\n"
+"PO-Revision-Date: 2003-04-19 09:22+0300\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/args.c:518
 msgid "usage: indent file [-o outfile ] [ options ]\n"
-msgstr "ús: indent fitxer [-o fitxer_de_sortida ] [ opcions ]\n"
+msgstr "folosire: fiºier indent [-o fiºier_ieºire ] [ opþiuni ]\n"
 
 #: src/args.c:519
 msgid "       indent file1 file2 ... fileN [ options ]\n"
-msgstr "    indent fitxer1 fitxer2 ... fitxerN [ opcions ]\n"
+msgstr "       fiºier indent fiºier1 fiºier2...fiºierN [ opþiuni ]\n"
 
 #: src/args.c:583
 #, c-format
 msgid "indent: missing argument to parameter %s\n"
-msgstr "indent: argument inexistent al paràmetre %s\n"
+msgstr "indent: argument lipsã la parametrul %s\n"
 
 #: src/args.c:682
 #, c-format
 msgid "indent: unknown option \"%s\"\n"
-msgstr "indent: opció desconeguda \"%s\"\n"
+msgstr "indent: opþiune necunoscutã \"%s\"\n"
 
 #: src/args.c:693
 #, c-format
 msgid "option: %s\n"
-msgstr "opció: %s\n"
+msgstr "opþiune: %s\n"
 
 #. This is not really an error, but zero exit values are
 #. returned only when code has been successfully formatted.
@@ -46,197 +46,196 @@ msgstr "GNU indent %s\n"
 #: src/args.c:786
 #, c-format
 msgid "indent: option ``%s'' requires a numeric parameter\n"
-msgstr "indent: l'opció ``%s'' requereix un paràmetre numèric\n"
+msgstr "indent: opþiunea ``%s'' necesitã un parametru numeric\n"
 
 #: src/args.c:796
 #, c-format
 msgid "indent: set_option: internal error: p_type %d\n"
-msgstr "indent: set_option: error intern: p_type %d\n"
+msgstr "indent: set_option: eroare internã: p_type %d\n"
 
 #: src/args.c:852
-#, fuzzy
 msgid "Profile contains an unterminated comment"
-msgstr "El perfil conté caràcters no acceptables"
+msgstr "Profilul conþine un comentariu neterminat"
 
 #: src/args.c:889
 msgid "Profile contains unpalatable characters"
-msgstr "El perfil conté caràcters no acceptables"
+msgstr "Profilul conþine caractere nepalatabile"
 
 #: src/backup.c:381
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Valor del control de versió extrany\n"
+msgstr "indent: Valoare ciudatã de control-versiune\n"
 
 #: src/backup.c:382
 msgid "indent:  Using numbered-existing\n"
-msgstr "indent: Ús de numerats existents\n"
+msgstr "indent: Folosire numerotate-existente\n"
 
 #: src/backup.c:410
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: No es pot fer una còpia de seguretat del fitxer %s\n"
+msgstr "indent: Nu pot face nume_fiºier de backup al %s\n"
 
 #: src/backup.c:418
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "No es pot obrir la còpia de seguretat %s"
+msgstr "Nu pot deschide fiºierul de backup %s"
 
 #: src/backup.c:425
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "No es pot escriure a la còpia de seguretat %s"
+msgstr "Nu pot scrie în fiºierul de backup %s"
 
 #: src/backup.c:439
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
-msgstr "No es pot conservar la modificació de temps en la còpia de seguretat %s"
+msgstr "Nu pot pãstra data modificãrii fiºierului de backup %s"
 
 #: src/globs.c:41 src/globs.c:64
 msgid "indent: Virtual memory exhausted.\n"
-msgstr "indent: Memòria virtual exhaurida.\n"
+msgstr "indent: Memorie virtualã plinã.\n"
 
 #: src/globs.c:79
 #, c-format
 msgid "indent: %s:%d: %s:"
-msgstr "indent: %s:%d: %s:"
+msgstr "indent: %s:%d: %s"
 
 #: src/globs.c:93
 msgid "indent: Fatal Error: "
-msgstr "indent: Error fatal: "
+msgstr "indent: Eroare fatalã: "
 
 #: src/globs.c:103
 msgid "indent: System Error: "
-msgstr "indent: Error del sistema: "
+msgstr "indent: Eroare sistem: "
 
 #. Warning messages:  indent continues
 #: src/globs.h:25
 msgid "Warning"
-msgstr "Advertència"
+msgstr "Avertisment"
 
 #. Error messages: indent stops processing the current file.
 #: src/globs.h:29
 msgid "Error"
-msgstr "Error"
+msgstr "Eroare"
 
 #: src/indent.c:141
 msgid "Ran out of memory"
-msgstr "S'ha quedat sense memòria"
+msgstr "Am rãmas fãrã memorie"
 
 #: src/indent.c:444
 msgid "EOF encountered in comment"
-msgstr "S'ha trobat EOF en el comentari"
+msgstr "EOF întâlnit în comentariu"
 
 #: src/indent.c:500 src/indent.c:1562 src/indent.c:1584
 msgid "Line broken"
-msgstr "Línia trencada"
+msgstr "Linie întreruptã"
 
 #: src/indent.c:581
 msgid "Unexpected end of file"
-msgstr "Inesperat final de fitxer"
+msgstr "Sfârºit de fiºier neaºteptat"
 
 #: src/indent.c:587
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "Hi havia %d de línies no buides de sortida i %d comentaris\n"
+msgstr "Au fost %d linii negoale(non-blank) ºi %d comentarii\n"
 
 #: src/indent.c:591
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(Línies amb comentaris)/(Línies amb codi): %6.3f\n"
+msgstr "(Linii cu comentarii)/(Linii de cod): %6.3f\n"
 
 #: src/indent.c:612
 msgid "Line broken 2"
-msgstr "Línia trencada 2"
+msgstr "Linie întreruptã 2"
 
 #: src/indent.c:909 src/indent.c:1486
 #, c-format
 msgid "Extra %c"
-msgstr "Extra %c"
+msgstr "%c în plus(extra)"
 
 #: src/indent.c:2205
 msgid "Unmatched #else"
-msgstr "#else desaparellat"
+msgstr "#else fãrã corespondent(unmatched)"
 
 #: src/indent.c:2206
 msgid "Unmatched #elif"
-msgstr "#elif desaparellat"
+msgstr "#elif fãrã corespondent(unmatched)"
 
 #: src/indent.c:2233
 msgid "Unmatched #endif"
-msgstr "#endif desaparellat"
+msgstr "#endif fãrã corespondent(unmatched)"
 
 #: src/indent.c:2385
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
-msgstr "indent: només un fitxer de sortida (el 2n era %s)\n"
+msgstr "indent: doar un fiºier de output (al doilea a fost %s)\n"
 
 #: src/indent.c:2394 src/indent.c:2420
 msgid "indent: only one input file when output file is specified\n"
-msgstr "indent: només un fitxer d'entrada quan el fitxer de sortida és especificat\n"
+msgstr "indent: doar un fiºier de input când fiºier output e specificat\n"
 
 #: src/indent.c:2408 src/indent.c:2455
 msgid "indent: can't have filenames when specifying standard input\n"
-msgstr "indent: no hi pot haver noms de fitxer quan s'especifica l'entrada estàndard\n"
+msgstr "indent: nu putem aveam nume_fiºiere când e specificat standard input\n"
 
 #: src/indent.c:2428
 msgid "indent: only one input file when stdout is used\n"
-msgstr "indent: només un fitxer d'entrada quan stdout és emprat\n"
+msgstr "indent: doar un fiºier de intrare când e folosit stdout\n"
 
 #: src/indent.c:2617
 #, c-format
 msgid "Read profile %s\n"
-msgstr "Llegir perfil %s\n"
+msgstr "Citeºte profil %s\n"
 
 #: src/io.c:139
 msgid "Internal buffering error"
-msgstr "Error de la memòria interna"
+msgstr "Eroare internã de buffering"
 
 #: src/io.c:300
 #, c-format
 msgid "Can't open input file %s"
-msgstr "No es pot obrir el fitxer d'entrada %s"
+msgstr "Nu pot deschide fiºierul de intrare %s"
 
 #: src/io.c:305
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "No hi pot haver el fitxer d'entrada %s"
+msgstr "Nu pot afla statistici despre fiºierul de intrare %s"
 
 #: src/io.c:310
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Advertència: Fitxer de longitud zero %s"
+msgstr "Avertisment: %s este fiºier de lungime 0"
 
 #: src/io.c:318
 #, c-format
 msgid "File %s is too big to read"
-msgstr "El fitxer %s és massa gran per ser llegit"
+msgstr "Fiºierul %s este prea mare pentru a fi citit"
 
 #: src/io.c:326
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Problema del sistema en llegir el fitxer %s"
+msgstr "Problemã de sistem la citirea fiºierului %s"
 
 #: src/io.c:350
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Error en llegir el fitxer d'entrada %s"
+msgstr "Eroare la citirea fiºierului de intrare %s"
 
 #: src/io.c:355
 #, c-format
 msgid "Error closeing input file %s"
-msgstr "Error en tancar el fitxer d'entrada %s"
+msgstr "Eroare la închiderea fiºierului de intrare %s"
 
 #: src/io.c:541
 #, c-format
 msgid "Warning: File %s contains NULL-characters\n"
-msgstr "Advertència: El fitxer %s conté NULL-caràcters\n"
+msgstr "Avertisment: Fiºierul %s conþine caractere NULL\n"
 
 #: src/lexi.c:767
 msgid "Unterminated character constant"
-msgstr "La constant caràcter no és acabada"
+msgstr "Constantã caracter neterminatã"
 
 #: src/lexi.c:768
 msgid "Unterminated string constant"
-msgstr "La constant string no és acabada"
+msgstr "Constantã ºir neterminatã"
 
 #. Something like x=-1, which can mean x -= 1 ("old style" in K&R1)
 #. * or x = -1 (ANSI).  Note that this is only an ambiguity if the
@@ -248,45 +247,45 @@ msgstr "La constant string no és acabada"
 #: src/lexi.c:1001
 #, c-format
 msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
-msgstr "ambigüetat d'assignació old-style en \"=%c\".  S'assumeix \"= %c\"\n"
+msgstr "atribuire ambiguã stil vechi în \"=%c\". Se presupune \"= %c\"\n"
 
 #: src/output.c:1067
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: no es pot crear %s\n"
+msgstr "indent: nu pot crea %s\n"
 
 #: src/output.c:1106
 #, c-format
 msgid "Can't close output file %s"
-msgstr "No es pot tancar el fitxer de sortida %s"
+msgstr "Nu pot închide fiºierul de output %s"
 
 #: src/output.c:1119
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "No s'ha pogut conservar el temps de modificació en el fitxer de sortida %s"
+msgstr "Nu pot pãstra data modificãrii fiºierului de output %s"
 
 #: src/parse.c:397
 msgid "Unmatched 'else'"
-msgstr "'else' desaparellat"
+msgstr "'else' fãrã corespondent"
 
 #: src/parse.c:423
 msgid "Stmt nesting error."
-msgstr "Stmt error de nesting"
+msgstr "Eroare nesting stmt."
 
 #: src/parse.c:465
 msgid "Unknown code to parser"
-msgstr "Codi desconegut per l'analitzador de sintaxis"
+msgstr "Cod necunoscut în analizor(parser)"
 
 #: src/parse.c:475
-#, fuzzy, c-format
+#, c-format
 msgid "ParseStack [%d]:\n"
-msgstr "ParseStack [%d]\n"
+msgstr "ParseStack [%d]:\n"
 
 #: src/parse.c:479
 #, c-format
 msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  stack[%d] =>   stack: %d   ind_level: %d\n"
+msgstr "  stivã(stack)[%d] =>   stivã: %d   ind_level: %d\n"
 
 #: src/wildexp.c:90
 msgid "CANNOT FIND '@' FILE!"
-msgstr "NO ES POT TROBAR EL FITXER '@'!"
+msgstr "NU POT GÃSI FIªIERUL '@'!"

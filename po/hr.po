@@ -1,106 +1,108 @@
-# indent sk.po
-# Copyright (C) 1999, 2002, 2008 Free Software Foundation, Inc.
+# Translation of indent to Croatian.
+# Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008.
-# Miroslav Vasko <vasko@debian.cz>, 1999.
 #
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-11 19:55+0100\n"
-"PO-Revision-Date: 2008-05-22 06:36+0200\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"PO-Revision-Date: 2012-07-18 23:45+0200\n"
+"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: src/args.c:610
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"použitie: indent súbor [-o výstupný_súbor ] [ voľby ]\n"
-"          indent súbor1 súbor2 ... súborN [ voľby ]\n"
+"uporaba: indent datoteka [-o izlaznadatoteka ] [ opcije ]\n"
+"         indent datoteka1 datoteka2 ... datotekaN [ opcije]\n"
 
 #: src/args.c:676
 #, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "%s: chýbajúci argument k parametru %s\n"
+msgstr "%s: nedostaje argument za parametar %s\n"
 
 #: src/args.c:801
 #, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "%s: neznáma voľba \"%s\"\n"
+msgstr "%s: nepoznata opcija „%s”\n"
 
 #: src/args.c:811
 #, c-format
 msgid "option: %s\n"
-msgstr "voľba: %s\n"
+msgstr "opcija: %s\n"
 
 #: src/args.c:827
 #, c-format
 msgid "GNU indent %s\n"
-msgstr "GNU indent: %s\n"
+msgstr "GNU indent %s\n"
 
 #: src/args.c:912
 #, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "%s: voľba ``%s'' vyžaduje ako parameter číslo\n"
+msgstr "%s: opcija „%s” zahtijeva numerički parametar\n"
 
 #: src/args.c:920
 #, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "set_option: interná chyba: p_type %d\n"
+msgstr "set_option: interna greška: p_type %d\n"
 
 #: src/args.c:976
 msgid "Profile contains an unterminated comment"
-msgstr "Profil obsahuje neukončený komentár"
+msgstr "Profil sadrži nezavršeni komentar"
 
 #: src/args.c:1014
 msgid "Profile contains unpalatable characters"
-msgstr "Profil obsahuje nepríjemné znaky"
+msgstr "Profil sadrži netočne znakove"
 
 #: src/args.c:1182
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "Súbor určený premennou prostredia %s neexistuje alebo je nečitateľný"
+msgstr "Datoteka imenovana varijablom okoline %s ne postoji ili nije čitljiva"
 
 #: src/backup.c:466
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Divná hodnota version-control\n"
+msgstr "indent:  Čudna vrijednost kontrole inačice\n"
 
 #: src/backup.c:467
 #, c-format
 msgid "indent:  Using numbered-existing\n"
-msgstr "indent:  Použijú sa existujúce očíslované\n"
+msgstr "indent:  Koristim pobrojane-postojeće\n"
 
 #: src/backup.c:498
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: Nemôžem vytvoriť záložnú kópiu súboru %s\n"
+msgstr "indent: Ne mogu napraviti kopiju imena datoteke %s\n"
 
 #: src/backup.c:506
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Nemôžem otvoriť záložný súbor %s"
+msgstr "Ne mogu otvoriti datoteku kopije %s"
 
 #: src/backup.c:513
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "Nemôžem zapísať do záložného súboru %s"
+msgstr "Ne mogu pisati u datoteku kopije %s"
 
 #: src/backup.c:526
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
-msgstr "Nemôžem zachovať čas zmeny záložného súboru %s"
+msgstr "Ne mogu očuvati vrijeme uređivanja datoteke kopije %s"
 
 #: src/globs.c:49 src/globs.c:74
 #, c-format
 msgid "indent: Virtual memory exhausted.\n"
-msgstr "indent: Vyčerpaná virtuálna pamäť.\n"
+msgstr "indent: Virtualna memorija iscrpljena.\n"
 
 #: src/globs.c:93
 #, c-format
@@ -110,191 +112,191 @@ msgstr "indent: %s:%d: %s:"
 #: src/globs.c:109
 #, c-format
 msgid "indent: Fatal Error: "
-msgstr "indent: Závažná chyba: "
+msgstr "indent: Fatalna greška: "
 
 #: src/globs.c:119
 #, c-format
 msgid "indent: System Error: "
-msgstr "indent: Systémová chyba: "
+msgstr "indent: Greška sustava: "
 
 #: src/globs.h:27
 msgid "Warning"
-msgstr "Upozornenie"
+msgstr "Upozorenje"
 
 #: src/globs.h:31
 msgid "Error"
-msgstr "Chyba"
+msgstr "Greška"
 
 #: src/indent.c:187
 msgid "Ran out of memory"
-msgstr "Beh vyčerpal pamäť"
+msgstr "Ponestalo je memorije"
 
 #: src/indent.c:596 src/indent.c:1318
 #, c-format
 msgid "Extra %c"
-msgstr "Navyše %c"
+msgstr "Suvišan %c"
 
 #: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
 msgid "Line broken"
-msgstr "Riadok poškodený"
+msgstr "Redak prekinut"
 
 #: src/indent.c:2115
 msgid "Unmatched #else"
-msgstr "Nezodpovedaj�ce #else"
+msgstr "Neuparen #else"
 
 #: src/indent.c:2116
 msgid "Unmatched #elif"
-msgstr "Nezodpovedajúce #elif"
+msgstr "Neuparen #elif"
 
 #: src/indent.c:2143
 msgid "Unmatched #endif"
-msgstr "Nezodpovedajúce #endif"
+msgstr "Neuparen #endif"
 
 #: src/indent.c:2563
 msgid "EOF encountered in comment"
-msgstr "V komentári sa vyskytol koniec súboru"
+msgstr "Pronađen EOF u komentaru"
 
 #: src/indent.c:2802
 msgid "Unexpected end of file"
-msgstr "Neočakávaný koniec súboru"
+msgstr "Neočekivani kraj datoteke"
 
 #: src/indent.c:2808
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "Spracovaných %d neprázdnych výstupných riadkov a %d komentárov\n"
+msgstr "Pronađeno je %d nepraznih izlaznih redaka i %d komentara\n"
 
 #: src/indent.c:2812
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(Riadkov s komentármi)/(Riadkov s kódom): %6.3f\n"
+msgstr "(Retci s komentarima)/(Retci s kodom): %6.3f\n"
 
 #: src/indent.c:2836
 msgid "Line broken 2"
-msgstr "Riadok poškodený 2"
+msgstr "Redak prekinut 2"
 
 #: src/indent.c:3059
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
-msgstr "indent: iba jeden výstupný súbor (druhý bol %s)\n"
+msgstr "indent: samo jedna izlazna datoteka (druga je %s)\n"
 
 #: src/indent.c:3068 src/indent.c:3094
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
-msgstr "indent: iba jeden vstupný súbor, keď je zadaný výstupný súbor\n"
+msgstr "indent: samo jedna ulazna datoteka kad je izlazna navedena\n"
 
 #: src/indent.c:3082 src/indent.c:3129
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
-msgstr "indent: nemožno zadať súbory, ak ste zadali štandardný vstup\n"
+msgstr "indent: ne mogu se koristiti datoteke kad je naveden standardni ulaz\n"
 
 #: src/indent.c:3102
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
-msgstr "indent: iba jeden vstupný súbor, keď je použitý štandardný výstup\n"
+msgstr "indent: samo jedna ulazna datoteka kad se koristi standardni izlaz\n"
 
 #: src/indent.c:3138
 msgid "command line"
-msgstr "príkazový riadok"
+msgstr "naredbeni redak"
 
 #: src/indent.c:3330
 #, c-format
 msgid "Read profile %s\n"
-msgstr "Čítať profil %s\n"
+msgstr "Čitaj profil %s\n"
 
 #: src/code_io.c:169
 msgid "Internal buffering error"
-msgstr "Interná chyba vyrovnávacej pamäte"
+msgstr "Interna greška međuspremnika"
 
 #: src/code_io.c:262
 #, c-format
 msgid "Can't open input file %s"
-msgstr "Nemôžem otvoriť vstupný súbor %s"
+msgstr "Ne mogu otvoriti ulaznu datoteku %s"
 
 #: src/code_io.c:267
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Nemôžem zistiť stav vstupného súboru %s"
+msgstr "Ne mogu izvršiti stat na ulaznoj datoteci %s"
 
 #: src/code_io.c:272
 #, c-format
 msgid "Warning: Zero-length file %s"
-msgstr "Varovanie: Súbor %s má nulovú dĺžku"
+msgstr "Upozorenje: Datoteka duljine nula %s"
 
 #: src/code_io.c:280
 #, c-format
 msgid "File %s is too big to read"
-msgstr "Súbor %s je príliš veľký na čítanie"
+msgstr "Datoteka %s je prevelika za čitanje"
 
 #: src/code_io.c:288
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Systémový problém pri čítaní súboru %s"
+msgstr "Problem sustava pri čitanju datoteke %s"
 
 #: src/code_io.c:312
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Chyba pri čítaní vstupného súboru %s"
+msgstr "Greška čitanja ulazne datoteke %s"
 
 #: src/code_io.c:317
 #, c-format
 msgid "Error closeing input file %s"
-msgstr "Chyba pri zatváraní vstupného súboru %s"
+msgstr "Greška zatvaranja ulazne datoteke %s"
 
 #: src/code_io.c:505
 #, c-format
 msgid "Warning: File %s contains NULL-characters\n"
-msgstr "Upozornenie: Súbor %s obsahuje nulové znaky\n"
+msgstr "Upozorenje: Datoteka %s sadrži prazne (NULL) znakove\n"
 
 #: src/lexi.c:787
 msgid "Unterminated character constant"
-msgstr "Neukončená znaková konštanta"
+msgstr "Nezavršena znakovna konstanta"
 
 #: src/lexi.c:788
 msgid "Unterminated string constant"
-msgstr "Neukončená reťazcová konštanta"
+msgstr "Nezavršena konstanta znakovnog niza"
 
 #: src/lexi.c:1034
 #, c-format
 msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
-msgstr "nejednoznačnosť priradenia starého štýlu v \"=%c\". Predpokladá sa \"= %c\"\n"
+msgstr "višeznačnost starog načina pridruživanja u „=%c”.  Pretpostavljam „= %c”\n"
 
 #: src/output.c:1312
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: nemôžem vytvoriť %s\n"
+msgstr "indent: ne mogu napraviti %s\n"
 
 #: src/output.c:1351
 #, c-format
 msgid "Can't close output file %s"
-msgstr "Nemôžem zatvoriť výstupný súbor %s"
+msgstr "Ne mogu zatvoriti izlaznu datoteku %s"
 
 #: src/output.c:1364
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Nemôžem zachovať čas zmeny výstupného súboru %s"
+msgstr "Ne mogu očuvati vrijeme uređivanja izlazne datoteke %s"
 
 #: src/parse.c:447
 msgid "Unmatched 'else'"
-msgstr "Nezodpovedajúce 'else'"
+msgstr "Neuparen „else”"
 
 #: src/parse.c:473
 msgid "Stmt nesting error."
-msgstr "Chyba vnorenia stmt."
+msgstr "Stmt greška gnježđenja."
 
 #: src/parse.c:515
 msgid "Unknown code to parser"
-msgstr "Analyzátor nepozná tento kód"
+msgstr "Nepoznat kod za parser"
 
 #: src/parse.c:525
 #, c-format
 msgid "ParseStack [%d]:\n"
-msgstr "Zásobník analyzátora [%d]:\n"
+msgstr "ParseStack [%d]:\n"
 
 #: src/parse.c:529
 #, c-format
 msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  zásobník[%d] =>   zásobník: %d   ind_úroveň: %d\n"
+msgstr "  stog[%d] =>   stog: %d   ind_level: %d\n"
 
 #: src/wildexp.c:126
 msgid "CANNOT FIND '@' FILE!"
-msgstr "NEPODARILO SA NÁJSŤ SÚBOR '@'!"
+msgstr "NE MOGU PRONAĆI „@” DATOTEKU!"
