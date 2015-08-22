@@ -1,22 +1,21 @@
-# Dutch translations for indent.
-# Copyright (C) 2008 Free Software Foundation, Inc.
+# Dutch translations for GNU indent.
+# Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
 #
 # Gerald Raucamp <cavey@vengeance.et.tudelft.nl>, 2000.
-# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2007, 2008.
+# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2007, 2008, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: indent-2.2.10\n"
+"Project-Id-Version: indent-2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-21 15:24+0200\n"
-"PO-Revision-Date: 2008-05-17 21:27+0200\n"
+"PO-Revision-Date: 2015-08-22 20:21+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/args.c:673
@@ -172,13 +171,13 @@ msgstr ""
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr ""
-"indent: bestandsnamen niet toegestaan bij gebruik van standaardinvoer\n"
+"indent: bestandsnamen zijn niet toegestaan bij gebruik van standaardinvoer\n"
 
 #: src/indent.c:863
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr ""
-"indent: slechts één invoerbestand toegestaan bij gebruik van "
+"indent: slechts één invoerbestand is toegestaan bij gebruik van "
 "standaarduitvoer\n"
 
 #: src/indent.c:898
@@ -205,9 +204,9 @@ msgid "Can't stat input file %s"
 msgstr "Kan status van invoerbestand %s niet opvragen"
 
 #: src/code_io.c:281
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Waarschuwing: bestand %s heeft lengte nul"
+msgstr "Bestand %s heeft lengte nul"
 
 #: src/code_io.c:289 src/code_io.c:303
 #, c-format
@@ -225,14 +224,14 @@ msgid "Error reading input file %s"
 msgstr "Fout bij lezen van invoerbestand %s"
 
 #: src/code_io.c:347
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Fout bij sluiten van invoerbestand %s"
 
 #: src/code_io.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Waarschuwing: bestand %s bevat NULL-tekens\n"
+msgstr "Bestand %s bevat NULL-tekens; kan niet verdergaan\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -243,9 +242,10 @@ msgid "Unterminated string constant"
 msgstr "Onafgemaakte tekenreeksconstante"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "toewijzing in oude stijl ('=%c') is meerduidig; begrepen als '= %c'\n"
+msgstr ""
+"oudestijl-toewijzing ('=%s') is meerduidig; het is begrepen als '= %s'\n"
 
 #: src/output.c:1339
 #, c-format
@@ -280,9 +280,9 @@ msgid "ParseStack [%d]:\n"
 msgstr "OntleedStapel [%d]:\n"
 
 #: src/parse.c:556
-#, fuzzy, c-format
+#, c-format
 msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  stapel[%d] =>   stapel: %d   inspring_niveau: %d\n"
+msgstr "  stapel[%d] =>  stapel: %d  [%-10s]  inspringniveau: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"

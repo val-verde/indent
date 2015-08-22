@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indent 2.2.10\n"
+"Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-21 15:24+0200\n"
-"PO-Revision-Date: 2009-08-02 12:16+0300\n"
+"PO-Revision-Date: 2015-08-22 15:09+0300\n"
 "Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -196,9 +196,9 @@ msgid "Can't stat input file %s"
 msgstr "Ei voi lukea syötetiedoston %s tilaa"
 
 #: src/code_io.c:281
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Varoitus: Nollan pituinen tiedosto %s"
+msgstr "Nollan pituinen tiedosto %s"
 
 #: src/code_io.c:289 src/code_io.c:303
 #, c-format
@@ -216,14 +216,14 @@ msgid "Error reading input file %s"
 msgstr "Virhe luettaessa syötetiedostoa %s"
 
 #: src/code_io.c:347
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Virhe suljettaessa syötetiedostoa %s"
 
 #: src/code_io.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Varoitus: Tiedostossa %s on NULL-merkkejä\n"
+msgstr "Tiedostossa %s on NULL-merkkejä: ei voida jatkaa\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -234,9 +234,9 @@ msgid "Unterminated string constant"
 msgstr "Päättämätön merkkijonovakio"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "vanhan tyylin moniselitteinen sijoitus ”=%c”. Oletetaan ”= %c”\n"
+msgstr "vanhan tyylin moniselitteinen sijoitus ”=%s”. Oletetaan ”= %s”\n"
 
 #: src/output.c:1339
 #, c-format
@@ -271,9 +271,9 @@ msgid "ParseStack [%d]:\n"
 msgstr "ParseStack [%d]:\n"
 
 #: src/parse.c:556
-#, fuzzy, c-format
+#, c-format
 msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  stack[%d] =>   stack: %d   ind_level: %d\n"
+msgstr "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
