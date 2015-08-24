@@ -1,7 +1,7 @@
 # indent sk.po
-# Copyright (C) 1999, 2002, 2008 Free Software Foundation, Inc.
+# Copyright (C) 1999, 2002, 2008, 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
-# Marcel Telka <marcel@telka.sk>, 2002, 2008.
+# Marcel Telka <marcel@telka.sk>, 2002, 2008, 2015.
 # Miroslav Vasko <vasko@debian.cz>, 1999.
 #
 msgid ""
@@ -224,7 +224,7 @@ msgstr "Chyba pri zatváraní vstupného súboru %s"
 #: src/code_io.c:536
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Súbor %s obsahuje nulové znaky: nie je možné pokračovať\n"
+msgstr "Súbor %s obsahuje nulové znaky: nemožno pokračovať\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -275,7 +275,7 @@ msgstr "Zásobník analyzátora [%d]:\n"
 #: src/parse.c:556
 #, c-format
 msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  zásobník[%d] =>   zásobník: %d [%-10s]  ind_level: %d\n"
+msgstr "  stack[%d] =>   stack: %d [%-10s]  ind_level: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"

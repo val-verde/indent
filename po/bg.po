@@ -67,7 +67,9 @@ msgstr "Файла с настройките съдържа неприемлив
 #: src/args.c:1228
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "Файла, назован от променливата на обкръжението %s, не съществува или не е четим"
+msgstr ""
+"Файла, назован от променливата на обкръжението %s, не съществува или не е "
+"четим"
 
 #: src/backup.c:463
 #, c-format
@@ -237,7 +239,9 @@ msgstr "Незавършена константа за низ"
 #: src/lexi.c:1113
 #, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "остарял двусмислен начин за присвояване при \"=%s\".  Предполага се \"= %s\"\n"
+msgstr ""
+"остарял двусмислен начин за присвояване при \"=%s\".  Предполага се \"= %s"
+"\"\n"
 
 #: src/output.c:1339
 #, c-format

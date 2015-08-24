@@ -169,7 +169,8 @@ msgstr "indent: je-li zadán standardní vstup, nelze udávat názvy souborů\n"
 #: src/indent.c:863
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
-msgstr "indent: je-li použit standardní výstup, lze zadat jen jeden vstupní soubor\n"
+msgstr ""
+"indent: je-li použit standardní výstup, lze zadat jen jeden vstupní soubor\n"
 
 #: src/indent.c:898
 msgid "command line"
@@ -235,7 +236,8 @@ msgstr "Neukončená řetězcová konstanta"
 #: src/lexi.c:1113
 #, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "přiřazení ve starém slohu je nejednoznačné v „=%s“. Předpokládá se „= %s“.\n"
+msgstr ""
+"přiřazení ve starém slohu je nejednoznačné v „=%s“. Předpokládá se „= %s“.\n"
 
 #: src/output.c:1339
 #, c-format

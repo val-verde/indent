@@ -67,7 +67,8 @@ msgstr "Hồ sơ chứa ký tự sai"
 #: src/args.c:1228
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr "Biến môi trường %s đặt tên của tập tin không tồn tại hay không thể đọc được"
+msgstr ""
+"Biến môi trường %s đặt tên của tập tin không tồn tại hay không thể đọc được"
 
 #: src/backup.c:463
 #, c-format
