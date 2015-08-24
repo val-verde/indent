@@ -2,21 +2,23 @@
 # Български превод за пакет indent.
 # Copyright (C) 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
-#  Roumen Petrov <transl@roumenpetrov.info>, 2010.
+#  Roumen Petrov <transl@roumenpetrov.info>, 2010,2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU indent 2.2.10\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-11 19:55+0100\n"
-"PO-Revision-Date: 2010-02-13 20:00+0200\n"
+"Project-Id-Version: GNU indent 2.2.12\n"
+"Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
+"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"PO-Revision-Date: 2015-08-23 20:41+0300\n"
 "Last-Translator:  Roumen Petrov <transl@roumenpetrov.info>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/args.c:610
+#: src/args.c:673
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
@@ -24,277 +26,256 @@ msgstr ""
 "употреба: indent файл [-o изхфайл ] [ опции ]\n"
 "          indent файл1 файл2 ... файлN [ опции ]\n"
 
-#: src/args.c:676
+#: src/args.c:740
 #, c-format
 msgid "%s: missing argument to parameter %s\n"
 msgstr "%s: липсва аргумент за параметър %s\n"
 
-#: src/args.c:801
+#: src/args.c:864
 #, c-format
 msgid "%s: unknown option \"%s\"\n"
 msgstr "%s: неизвестна опция \"%s\"\n"
 
-#: src/args.c:811
+#: src/args.c:877
 #, c-format
 msgid "option: %s\n"
 msgstr "опция: %s\n"
 
-#: src/args.c:827
+#: src/args.c:892
 #, c-format
 msgid "GNU indent %s\n"
 msgstr "ГНУ indent %s\n"
 
-#: src/args.c:912
+#: src/args.c:959
 #, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
 msgstr "%s: опцията \"%s\" изисква числов параметър\n"
 
-#: src/args.c:920
+#: src/args.c:966
 #, c-format
 msgid "set_option: internal error: p_type %d\n"
 msgstr "set_option: вътрешна грешка: p_type %d\n"
 
-#: src/args.c:976
+#: src/args.c:1022
 msgid "Profile contains an unterminated comment"
 msgstr "Файла с настройките съдържа незавършен коментар"
 
-#: src/args.c:1014
+#: src/args.c:1060
 msgid "Profile contains unpalatable characters"
 msgstr "Файла с настройките съдържа неприемливи знаци"
 
-#: src/args.c:1182
+#: src/args.c:1228
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
 msgstr "Файла, назован от променливата на обкръжението %s, не съществува или не е четим"
 
-#: src/backup.c:466
+#: src/backup.c:463
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Непозната стойност за контрол на версия\n"
+msgstr "indent:  Непозната стойност за проверка на версия\n"
 
-#: src/backup.c:467
+#: src/backup.c:464
 #, c-format
 msgid "indent:  Using numbered-existing\n"
 msgstr "indent:  Използване на \"номериран-съществуващ\"\n"
 
-#: src/backup.c:498
+#: src/backup.c:495
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
 msgstr "indent: Не можа да се създаде резервно копие за %s\n"
 
-#: src/backup.c:506
+#: src/backup.c:503
 #, c-format
 msgid "Can't open backup file %s"
 msgstr "Не можа да се отвори файл за резервно копие %s"
 
-#: src/backup.c:513
+#: src/backup.c:510
 #, c-format
 msgid "Can't write to backup file %s"
 msgstr "Не можа да се запише във файл за резервно копие %s"
 
-#: src/backup.c:526
+#: src/backup.c:523
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
 msgstr "Не можа да се запази дата и час на промяна за резервно копие %s"
 
-#: src/globs.c:49 src/globs.c:74
+#: src/globs.c:46 src/globs.c:68
 #, c-format
 msgid "indent: Virtual memory exhausted.\n"
 msgstr "indent: изчерпана виртуална памет.\n"
 
-#: src/globs.c:93
+#: src/globs.c:103
 #, c-format
 msgid "indent: %s:%d: %s:"
 msgstr "indent: %s:%d: %s:"
 
-#: src/globs.c:109
+#: src/globs.c:130
 #, c-format
 msgid "indent: Fatal Error: "
 msgstr "indent: пагубна грешка: "
 
-#: src/globs.c:119
+#: src/globs.c:140
 #, c-format
 msgid "indent: System Error: "
 msgstr "indent: системна грешка: "
 
-#: src/globs.h:27
+#: src/globs.h:26
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: src/globs.h:31
+#: src/globs.h:30
 msgid "Error"
 msgstr "Грешка"
 
-#: src/indent.c:187
-msgid "Ran out of memory"
-msgstr "Изпълнение при недостиг на памет"
-
-#: src/indent.c:596 src/indent.c:1318
-#, c-format
-msgid "Extra %c"
-msgstr "Излишен %c"
-
-#: src/indent.c:1440 src/indent.c:1466 src/indent.c:2624
-msgid "Line broken"
-msgstr "Прекъснат ред"
-
-#: src/indent.c:2115
-msgid "Unmatched #else"
-msgstr "Несъответстващ #else"
-
-#: src/indent.c:2116
-msgid "Unmatched #elif"
-msgstr "Несъответстващ #elif"
-
-#: src/indent.c:2143
-msgid "Unmatched #endif"
-msgstr "Несъответстващ #endif"
-
-#: src/indent.c:2563
+#: src/indent.c:291
 msgid "EOF encountered in comment"
 msgstr "Сблъскване с край на файл в коментар"
 
-#: src/indent.c:2802
+#: src/indent.c:354
+msgid "Line broken"
+msgstr "Прекъснат ред"
+
+#: src/indent.c:564
 msgid "Unexpected end of file"
 msgstr "Неочакван край на файл"
 
-#: src/indent.c:2808
+#: src/indent.c:570
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Намерени %d изходящи реда, които не са празни и %d коментари\n"
 
-#: src/indent.c:2812
+#: src/indent.c:574
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Редове с коментари)/(Редове с код): %6.3f\n"
 
-#: src/indent.c:2836
+#: src/indent.c:598
 msgid "Line broken 2"
 msgstr "Прекъснат ред(2)"
 
-#: src/indent.c:3059
+#: src/indent.c:820
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: само един изходящ файл (втория е %s)\n"
 
-#: src/indent.c:3068 src/indent.c:3094
+#: src/indent.c:829 src/indent.c:855
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: само един входящ файл, ако е указан изходящ\n"
 
-#: src/indent.c:3082 src/indent.c:3129
+#: src/indent.c:843 src/indent.c:889
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: не може с имена на файлове, когато е указан стандартен вход\n"
 
-#: src/indent.c:3102
+#: src/indent.c:863
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: само един входящ файл, когато се използва стандартния изход\n"
 
-#: src/indent.c:3138
+#: src/indent.c:898
 msgid "command line"
 msgstr "команден ред"
 
-#: src/indent.c:3330
+#: src/indent.c:1116
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Прочетени настройки от файл %s\n"
 
-#: src/code_io.c:169
+#: src/code_io.c:173
 msgid "Internal buffering error"
 msgstr "Вътрешна грешка при буфериране"
 
-#: src/code_io.c:262
+#: src/code_io.c:271
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Не може да се отвори входящия файл %s"
 
-#: src/code_io.c:267
+#: src/code_io.c:276
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Не може да се определи входящия файл %s"
 
-#: src/code_io.c:272
+#: src/code_io.c:281
 #, c-format
-msgid "Warning: Zero-length file %s"
-msgstr "Предупреждение: Файл с нулева дължина %s"
+msgid "Zero-length file %s"
+msgstr "Файл с нулева дължина %s"
 
-#: src/code_io.c:280
+#: src/code_io.c:289 src/code_io.c:303
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Файлът %s е твърде голям, за да се прочете"
 
-#: src/code_io.c:288
+#: src/code_io.c:297
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Системен проблем  при четене на файл %s"
 
-#: src/code_io.c:312
+#: src/code_io.c:339
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Грешка при четене на входящ файл %s"
 
-#: src/code_io.c:317
+#: src/code_io.c:347
 #, c-format
-msgid "Error closeing input file %s"
+msgid "Error closing input file %s"
 msgstr "Грешка при затваряне на входящ файл %s"
 
-#: src/code_io.c:505
+#: src/code_io.c:536
 #, c-format
-msgid "Warning: File %s contains NULL-characters\n"
-msgstr "Предупреждение: Файлът %s съдържа НУЛЕВи-знаци\n"
+msgid "File %s contains NULL-characters: cannot proceed\n"
+msgstr "Файлът %s съдържа NULL-знаци, не може да се обработи\n"
 
-#: src/lexi.c:787
+#: src/lexi.c:834
 msgid "Unterminated character constant"
 msgstr "Незавършена константа за знак"
 
-#: src/lexi.c:788
+#: src/lexi.c:835 src/lexi.c:854
 msgid "Unterminated string constant"
 msgstr "Незавършена константа за низ"
 
-#: src/lexi.c:1034
+#: src/lexi.c:1113
 #, c-format
-msgid "old style assignment ambiguity in \"=%c\".  Assuming \"= %c\"\n"
-msgstr "остарял двусмислен начин за присвояване при \"=%c\".  Приемане за \"= %c\"\n"
+msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
+msgstr "остарял двусмислен начин за присвояване при \"=%s\".  Предполага се \"= %s\"\n"
 
-#: src/output.c:1312
+#: src/output.c:1339
 #, c-format
 msgid "indent: can't create %s\n"
-msgstr "indent: не можа да се създаде %s\n"
+msgstr "indent: не може да се създаде %s\n"
 
-#: src/output.c:1351
+#: src/output.c:1377
 #, c-format
 msgid "Can't close output file %s"
 msgstr "Не можа да се затвори изходящия файл %s"
 
-#: src/output.c:1364
+#: src/output.c:1390
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Не можа да се запази дата и час на промяна за изходящ файл %s"
+msgstr "Не може да се запази датата и часа на промяна на изходящия файл %s"
 
-#: src/parse.c:447
+#: src/parse.c:474
 msgid "Unmatched 'else'"
 msgstr "Несъответстващ 'else'"
 
-#: src/parse.c:473
+#: src/parse.c:500
 msgid "Stmt nesting error."
 msgstr "Грешка при вграждане на блок с код."
 
-#: src/parse.c:515
+#: src/parse.c:542
 msgid "Unknown code to parser"
 msgstr "Неразпознат код при обработка"
 
-#: src/parse.c:525
+#: src/parse.c:552
 #, c-format
 msgid "ParseStack [%d]:\n"
 msgstr "Стек при обработка [%d]:\n"
 
-#: src/parse.c:529
+#: src/parse.c:556
 #, c-format
-msgid "  stack[%d] =>   stack: %d   ind_level: %d\n"
-msgstr "  стек[%d] =>   стек: %d   косвено ниво: %d\n"
+msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
+msgstr "   стек[%d] =>   стек: %d [%-10s]  косвено  : %d\n"
 
-#: src/wildexp.c:126
+#: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "НЕ Е НАМЕРЕН '@' ФАЙЛ!"
