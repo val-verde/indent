@@ -6,16 +6,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indent 2.2.10\n"
+"Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-21 15:24+0200\n"
-"PO-Revision-Date: 2008-05-22 06:36+0200\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"PO-Revision-Date: 2015-08-24 15:03+0200\n"
+"Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: src/args.c:673
 msgid ""
@@ -196,9 +197,9 @@ msgid "Can't stat input file %s"
 msgstr "Nemôžem zistiť stav vstupného súboru %s"
 
 #: src/code_io.c:281
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Varovanie: Súbor %s má nulovú dĺžku"
+msgstr "Súbor %s má nulovú dĺžku"
 
 #: src/code_io.c:289 src/code_io.c:303
 #, c-format
@@ -216,14 +217,14 @@ msgid "Error reading input file %s"
 msgstr "Chyba pri čítaní vstupného súboru %s"
 
 #: src/code_io.c:347
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Chyba pri zatváraní vstupného súboru %s"
 
 #: src/code_io.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Upozornenie: Súbor %s obsahuje nulové znaky\n"
+msgstr "Súbor %s obsahuje nulové znaky: nie je možné pokračovať\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -234,10 +235,10 @@ msgid "Unterminated string constant"
 msgstr "Neukončená reťazcová konštanta"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"nejednoznačnosť priradenia starého štýlu v \"=%c\". Predpokladá sa \"= %c\"\n"
+"nejednoznačnosť priradenia starého štýlu v \"=%s\". Predpokladá sa \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format
@@ -272,9 +273,9 @@ msgid "ParseStack [%d]:\n"
 msgstr "Zásobník analyzátora [%d]:\n"
 
 #: src/parse.c:556
-#, fuzzy, c-format
+#, c-format
 msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  zásobník[%d] =>   zásobník: %d   ind_úroveň: %d\n"
+msgstr "  zásobník[%d] =>   zásobník: %d [%-10s]  ind_level: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
