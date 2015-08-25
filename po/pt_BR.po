@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"POT-Creation-Date: 2015-08-25 09:04+0200\n"
 "PO-Revision-Date: 2002-10-28 23:00-0300\n"
 "Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -268,16 +268,6 @@ msgstr "Erro de aninhamento de instruções."
 #: src/parse.c:542
 msgid "Unknown code to parser"
 msgstr "Código desconhecido para o analisador"
-
-#: src/parse.c:552
-#, c-format
-msgid "ParseStack [%d]:\n"
-msgstr "ParseStack [%d]:\n"
-
-#: src/parse.c:556
-#, fuzzy, c-format
-msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  stack[%d] =>   stack: %d   ind_level: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"

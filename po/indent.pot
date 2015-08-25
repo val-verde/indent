@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"POT-Creation-Date: 2015-08-25 09:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,16 +261,6 @@ msgstr ""
 
 #: src/parse.c:542
 msgid "Unknown code to parser"
-msgstr ""
-
-#: src/parse.c:552
-#, c-format
-msgid "ParseStack [%d]:\n"
-msgstr ""
-
-#: src/parse.c:556
-#, c-format
-msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
 msgstr ""
 
 #: src/wildexp.c:128

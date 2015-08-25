@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.7\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"POT-Creation-Date: 2015-08-25 09:04+0200\n"
 "PO-Revision-Date: 2001-09-05 08:38+0800\n"
 "Last-Translator: Franklin W. <franklin@hyweb.com.tw>\n"
 "Language-Team: zh_TW.Big5 <LL@li.org>\n"
@@ -264,16 +264,6 @@ msgstr "巢狀敘述有錯誤。"
 #: src/parse.c:542
 msgid "Unknown code to parser"
 msgstr "無法剖析的程式碼"
-
-#: src/parse.c:552
-#, c-format
-msgid "ParseStack [%d]:\n"
-msgstr ""
-
-#: src/parse.c:556
-#, c-format
-msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr ""
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"POT-Creation-Date: 2015-08-25 09:04+0200\n"
 "PO-Revision-Date: 2015-08-22 20:11+0200\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -274,16 +274,6 @@ msgstr "Erreur d'imbrication d'instructions."
 #: src/parse.c:542
 msgid "Unknown code to parser"
 msgstr "Code inconnu de l'analyseur syntaxique"
-
-#: src/parse.c:552
-#, c-format
-msgid "ParseStack [%d]:\n"
-msgstr "ParseStack [%d]:\n"
-
-#: src/parse.c:556
-#, c-format
-msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  pile[%d] =>  pile: %d [%-10s]  niveau_indirect: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"

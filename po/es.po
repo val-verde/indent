@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-21 15:24+0200\n"
+"POT-Creation-Date: 2015-08-25 09:04+0200\n"
 "PO-Revision-Date: 2010-04-13 21:09+0200\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
@@ -295,17 +295,6 @@ msgstr "Error de anidamiento `stmt'"
 #: src/parse.c:542
 msgid "Unknown code to parser"
 msgstr "Error desconocido en el reconocimiento léxico"
-
-#: src/parse.c:552
-#, c-format
-msgid "ParseStack [%d]:\n"
-msgstr "Pila de análisis [%d]:\n"
-
-# Creo que no se debería traducir `stack' tb
-#: src/parse.c:556
-#, fuzzy, c-format
-msgid "  stack[%d] =>  stack: %d [%-10s]  ind_level: %d\n"
-msgstr "  pila[%d] =>    pila: %d [%-10s]   nivel_de_sangrado: %d\n"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
