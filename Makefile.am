@@ -10,12 +10,9 @@ DISTFILES = $(DIST_COMMON:README=README.md) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_
 EXTRA_DIST = 	README.md \
 		config/config.rpath config/mkinstalldirs \
 		ChangeLog-1990 ChangeLog-1998 ChangeLog-2001 \
-		miscel/make-decc.com miscel/vaxc-make.com miscel/gnuc-make.com \
 		aclocal/UTIMBUF.m4 \
 		miscel/Makefile.mingw32 \
-		miscel/makefile.watcom \
 		miscel/README.vc++ \
-		miscel/README.VMS \
 		bootstrap \
 		regression
 

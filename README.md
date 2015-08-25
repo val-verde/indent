@@ -14,10 +14,7 @@ README for GNU indent 2.2.12
   different from the last version, and what future versions may do.
 
   To install indent, please read the file INSTALL included with the
-  distribution. If you are installing indent on VMS, see the file
-  miscel/README.VMS. For VMS and other platforms there is a variety 
-  of files in the directory miscel that may be of use. Move the
-  files that may be of use to the src directory before use.
+  distribution.
 
   For license and copying information, see the file COPYING.
 

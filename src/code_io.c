@@ -55,20 +55,14 @@
 #include <errno.h>
 #include <limits.h>
 
-#ifdef VMS
-   #include <file.h>
-   #include <types.h>
-   #include <stat.h>
-#else /* not VMS */
-   #include <sys/types.h>
-   #include <sys/stat.h>
-   /* POSIX says that <fcntl.h> should exist.  Some systems might need to use
-    * <sys/fcntl.h> or <sys/file.h> instead.  */
-   #include <fcntl.h>
-   #if defined (_WIN32) && !defined (__CYGWIN__)
-      #include <io.h>
-   #endif
-#endif /* not VMS */
+#include <sys/types.h>
+#include <sys/stat.h>
+/* POSIX says that <fcntl.h> should exist.  Some systems might need to use
+* <sys/fcntl.h> or <sys/file.h> instead.  */
+#include <fcntl.h>
+#if defined (_WIN32) && !defined (__CYGWIN__)
+  #include <io.h>
+#endif
 
 #include "indent.h"
 #include "code_io.h"
@@ -140,46 +134,6 @@ static BOOLEAN is_comment_start(const char * p)
     return ret;
 }
 
-#ifdef VMS
-/**
- * Folks say VMS requires its own read routine.  Then again, some folks
- * say it doesn't.  Different folks have also sent me conflicting versions
- * of this function.  Who's right?
- *
- * Anyway, this version was sent by MEHRDAD@glum.dev.cf.ac.uk and modified
- * slightly by me. */
-
-static int vms_read (
-    int    file_desc,
-    char * buffer,
-    int    nbytes)
-{
-    char * bufp;
-    int    nread;
-    int    nleft;
-
-    bufp = buffer;
-    nread = 0;
-    nleft = nbytes;
-
-    nread = read (file_desc, bufp, nleft);
-    
-    while (nread > 0)
-    {
-        bufp += nread;
-        nleft -= nread;
-        if (nleft < 0)
-        {
-            fatal (_("Internal buffering error"), 0);
-        }
-        
-        nread = read (file_desc, bufp, nleft);
-    }
-
-    return nbytes - nleft;
-}
-#endif /* VMS */
-
 /**
  * Return the column we are at in the input line.
  */
@@ -232,14 +186,6 @@ extern int current_column (void)
 }
 
 /**
- * VMS defines it's own read routine, `vms_read' 
- */
-#ifndef INDENT_SYS_READ
-#include <unistd.h>
-#define INDENT_SYS_READ read
-#endif
-
-/**
  * Read file FILENAME into a `fileptr' structure, and return a pointer to
  * that structure. 
  */
@@ -250,7 +196,7 @@ extern file_buffer_ty * read_file(
 {
     static file_buffer_ty fileptr = {NULL, 0, NULL};
     
-#if defined(__MSDOS__) || defined(VMS)
+#if defined(__MSDOS__)
     /*
      * size is required to be unsigned for MSDOS,
      * in order to read files larger than 32767
@@ -320,16 +266,16 @@ extern file_buffer_ty * read_file(
 
     size_to_read = fileptr.size;
     while (size_to_read > 0) {
-        size = INDENT_SYS_READ (fd, fileptr.data + fileptr.size - size_to_read,
+        size = read (fd, fileptr.data + fileptr.size - size_to_read,
                 size_to_read);
         
         if (size ==
-#if defined(__MSDOS__) || defined(VMS)
+#if defined(__MSDOS__)
                 (unsigned int)
 #endif
                 -1)
         {
-#if !defined(__MSDOS__) && !defined(VMS)
+#if !defined(__MSDOS__)
             if (errno == EINTR)
             {
                 continue;

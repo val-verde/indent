@@ -82,19 +82,6 @@
    extern int debug;
 #endif
 
-#ifdef VMS
-   #define ONE_DOT_PER_FILENAME 1
-   #define PROFILE_FORMAT "%s%s"
-   #define BACKUP_SUFFIX_STR    "_"
-   #define BACKUP_SUFFIX_CHAR   '_'
-   #define BACKUP_SUFFIX_FORMAT "%s._%d_"
-   #define INDENT_SYS_READ vms_read	/* Defined in code_io.c */
-
-   #if defined(VAXC) || defined(__DECC)
-      #include <unixio.h>
-   #endif
-#endif /* VMS */
-
 #if 'A' == 0xC1	/* Automatic detection of underlying EBCDIC codeset */
    #define CHARSET_EBCDIC
 #endif

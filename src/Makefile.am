@@ -6,8 +6,7 @@ noinst_HEADERS = indent.h args.h backup.h comments.h lexi.h parse.h globs.h code
 indent_LDADD =  $(INTLLIBS)
 EXTRA_DIST = @PACKAGE@.gperf @PACKAGE@-cc.gperf wildexp.c gperf.c gperf-cc.c \
 	     @PACKAGE@.dsp \
-	     config.h.vc++ \
-	     config.h.vms
+	     config.h.vc++
 
 
 BUILT_SOURCES = gperf.c gperf-cc.c
@@ -46,6 +45,6 @@ gperf-cc.c: indent-cc.gperf
 	         gperf-cc.c
 
 if MAINTAINER_MODE
-config.h.vc++ config.h.vms @PACKAGE@.lsm :%: Makefile %.in
+config.h.vc++ @PACKAGE@.lsm :%: Makefile %.in
 	sed -e 's%!VERSION!%@VERSION@%g' $@.in > $@
 endif
