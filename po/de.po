@@ -6,11 +6,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU indent 2.2.10\n"
+"Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2012-10-30 23:28+0100\n"
-"Last-Translator: Jakob Kramer <jakob.kramer@gmx.de>\n"
+"PO-Revision-Date: 2015-08-25 13:57+0200\n"
+"Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -58,11 +58,11 @@ msgstr "set_option: Interner Fehler: p_type %d.\n"
 
 #: src/args.c:1022
 msgid "Profile contains an unterminated comment"
-msgstr "Das Profile enthält einen nicht-beendeten Kommentar."
+msgstr "Das Profile enthält einen nicht-beendeten Kommentar"
 
 #: src/args.c:1060
 msgid "Profile contains unpalatable characters"
-msgstr "Das Profile enthält ungenießbare Zeichen."
+msgstr "Das Profile enthält ungenießbare Zeichen"
 
 #: src/args.c:1228
 #, c-format
@@ -89,18 +89,18 @@ msgstr "indent: Name der Backup-Datei für %s kann nicht ermittelt werden.\n"
 #: src/backup.c:503
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Backup-Datei %s läßt sich nicht öffnen."
+msgstr "Backup-Datei %s läßt sich nicht öffnen"
 
 #: src/backup.c:510
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "In die Backup-Datei %s kann nicht geschrieben werden."
+msgstr "In die Backup-Datei %s kann nicht geschrieben werden"
 
 #: src/backup.c:523
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
 msgstr ""
-"Die Modifikationszeit kann für die Backup-Datei %s nicht erhalten werden."
+"Die Modifikationszeit kann für die Backup-Datei %s nicht erhalten werden"
 
 #: src/globs.c:46 src/globs.c:68
 #, c-format
@@ -110,7 +110,7 @@ msgstr "indent: Virtueller Speicher erschöpft.\n"
 #: src/globs.c:103
 #, c-format
 msgid "indent: %s:%d: %s:"
-msgstr "indent: %s:%d: %s: "
+msgstr "indent: %s:%d: %s:"
 
 #: src/globs.c:130
 #, c-format
@@ -132,15 +132,15 @@ msgstr "Fehler"
 
 #: src/indent.c:291
 msgid "EOF encountered in comment"
-msgstr "EOF in Kommentar gefunden."
+msgstr "EOF in Kommentar gefunden"
 
 #: src/indent.c:354
 msgid "Line broken"
-msgstr "Zeile umbrochen."
+msgstr "Zeile umbrochen"
 
 #: src/indent.c:564
 msgid "Unexpected end of file"
-msgstr "Unerwartetes Dateiende."
+msgstr "Unerwartetes Dateiende"
 
 #: src/indent.c:570
 #, c-format
@@ -154,7 +154,7 @@ msgstr "(Zeilen mit Kommentaren)/(Zeilen mit Code): %6.3f\n"
 
 #: src/indent.c:598
 msgid "Line broken 2"
-msgstr "Zeile umbrochen 2."
+msgstr "Zeile umbrochen 2"
 
 # der, die, das zweite?
 #: src/indent.c:820
@@ -190,57 +190,57 @@ msgstr "Lese Vorgabedatei (»profile«) %s.\n"
 #: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
-msgstr "Die Eingabedatei %s läßt sich nicht öffnen."
+msgstr "Die Eingabedatei %s läßt sich nicht öffnen"
 
 #: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Für die Eingabedatei %s kann stat nicht ausgeführt werden."
+msgstr "Für die Eingabedatei %s kann stat nicht ausgeführt werden"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Warnung: Datei %s ist leer."
+msgstr "Datei %s ist leer"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
-msgstr "Die Datei %s ist zu groß zum Einlesen."
+msgstr "Die Datei %s ist zu groß zum Einlesen"
 
 #: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
-msgstr "Ein Systemproblem trat beim Lesen der Datei %s auf."
+msgstr "Ein Systemproblem trat beim Lesen der Datei %s auf"
 
 #: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
-msgstr "Fehler beim Lesen der Eingabedatei %s."
+msgstr "Fehler beim Lesen der Eingabedatei %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
-msgstr "Fehler beim Schließen der Eingabedatei %s."
+msgstr "Fehler beim Schließen der Eingabedatei %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Warnung: Datei %s enthält NULL-Zeichen.\n"
+msgstr "Datei %s enthält NULL-Zeichen: kann nicht fortgesetzt werden\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
-msgstr "Nicht-beendete Zeichenkonstante."
+msgstr "Nicht-beendete Zeichenkonstante"
 
 #: src/lexi.c:835 src/lexi.c:854
 msgid "Unterminated string constant"
-msgstr "Nicht-beendete Stringkonstante."
+msgstr "Nicht-beendete Stringkonstante"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"Mehrdeutigkeit der Zuweisung in \"=%c\" (alte Form). \"= %c\" wird "
-"verwendet.\n"
+"Mehrdeutigkeit der Zuweisung in \"=%s\" (alte Form). \"= %s\" wird "
+"verwendet\n"
 
 #: src/output.c:1339
 #, c-format
@@ -250,17 +250,17 @@ msgstr "indent: Kann %s nicht erzeugen.\n"
 #: src/output.c:1377
 #, c-format
 msgid "Can't close output file %s"
-msgstr "Die Ausgabedatei %s kann nicht geschlossen werden."
+msgstr "Die Ausgabedatei %s kann nicht geschlossen werden"
 
 #: src/output.c:1390
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Die Modifikationszeit der Ausgabedatei %s kann nicht erhalten werden."
+msgstr "Die Modifikationszeit der Ausgabedatei %s kann nicht erhalten werden"
 
 # Shouldn't the message say 'else without if'?
 #: src/parse.c:474
 msgid "Unmatched 'else'"
-msgstr "Unerwartetes »else«."
+msgstr "Unerwartetes »else«"
 
 #: src/parse.c:500
 msgid "Stmt nesting error."
@@ -268,7 +268,7 @@ msgstr "Fehler in Anweisungsverschachtelung."
 
 #: src/parse.c:542
 msgid "Unknown code to parser"
-msgstr "Code ist dem Parser unbekannt."
+msgstr "Code ist dem Parser unbekannt"
 
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
