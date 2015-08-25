@@ -4,6 +4,7 @@
 	* output.c: For -as, if we're in an if/for/while statement, and
 	  we're breaking the line somewhere within the parenthesized
 	  expression, use the same indent level as the parent statement.
+
 2015-06-30 Tim Hentenaar <tim@hentenaar.com>
 	* Tighten-up the CFLAGS with additional warning flags.
 	* Ensure indent builds with clang.
@@ -30,7 +31,7 @@
 	* Use want_blank instead of copying a space to e_code to avoid
 	  double spaces.
 	* Fix print_comment reading past the end of the buffer when reading
-	 less than a full comment from stdin.
+	  less than a full comment from stdin.
 	* Ensure that there's only one point where exit(3) is used.
 	* Add xfree() to globs.
 	* xfree() common heap-allocated storage.
@@ -65,9 +66,9 @@
 	  #507173 and #349065).
 
 2014-03-29 Daniel P. Valentine <dpv@world.std.com>
-        * Added option -gts to treat _("...") and N_("...") as strings rather than
-          functions with string arguments. (args.c, indent.h, lexi.c, indent.texi,
-          regression/input/gettext-strings.c)
+	* Added option -gts to treat _("...") and N_("...") as strings rather than
+	  functions with string arguments. (args.c, indent.h, lexi.c, indent.texi,
+	  regression/input/gettext-strings.c)
 
 2014-03-29  Andrew Shadura  <andrew@shadura.me>
 	* Add an option to fix nested comments (-fnc/--fix-nested-comment).
