@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2010-04-13 21:09+0200\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
@@ -200,55 +200,45 @@ msgstr "línea de órdenes"
 msgid "Read profile %s\n"
 msgstr "Leído el perfil %s\n"
 
-# buffering (?) tb
-# almacenamiento intermedio em+
-# Bueno, está, no me acaba de gustar pero desde luego es mejor
-# que buffering. sv
-# ¿Quitamos 'interno', y ponemos 'Error de almancenamiento intermedio'?
-# ¿O 'Error de almacenamiento interno'?  tbd
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Error de almacenamiento intermedio interno"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "No se puede abrir el fichero de entrada %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "No se puede efectuar `stat' sobre el fichero de entrada %s"
 
 # Para indent 2.2.11
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Fichero de longitud cero %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "El fichero %s es demasiado grande para ser leído"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Problema en el sistema al leer el fichero %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Error al leer el fichero de entrada %s"
 
 # Para indent 2.2.11
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "Error al cerrar el fichero de entrada %s"
 
 # Para indent 2.2.11
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "El fichero %s contiene caracteres NULL. No se puede seguir.\n"
@@ -299,6 +289,15 @@ msgstr "Error desconocido en el reconocimiento léxico"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "¡NO SE PUEDE ENCONTRAR EL FICHERO '@'!"
+
+# buffering (?) tb
+# almacenamiento intermedio em+
+# Bueno, está, no me acaba de gustar pero desde luego es mejor
+# que buffering. sv
+# ¿Quitamos 'interno', y ponemos 'Error de almancenamiento intermedio'?
+# ¿O 'Error de almacenamiento interno'?  tbd
+#~ msgid "Internal buffering error"
+#~ msgstr "Error de almacenamiento intermedio interno"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Memoria agotada"

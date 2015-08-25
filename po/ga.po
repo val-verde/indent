@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2008-05-16 10:38-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -188,47 +188,43 @@ msgstr "líne na n-orduithe"
 msgid "Read profile %s\n"
 msgstr "Próifíl %s léite\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Earráid mhaolánaithe inmheánach"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Ní féidir an t-inchomhad %s a oscailt"
 
 # French use "stat()" too
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Ní féidir an t-inchomhad %s a rochtain le stat()"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Rabhadh: Tá an comhad %s folamh"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Tá an comhad %s rómhór"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Fadhb leis an gcóras agus comhad %s á léamh"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Earráid agus inchomhad %s á léamh"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Earráid agus inchomhad %s á dhúnadh"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Rabhadh: Carachtair NULL sa chomhad %s\n"
@@ -280,6 +276,9 @@ msgstr "Cód anaithnid chuig an pharsálaí"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NÍ FÉIDIR AN COMHAD '@' A FHÁIL!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Earráid mhaolánaithe inmheánach"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Cuimhne ídithe"

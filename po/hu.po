@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2014-03-20 19:23+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -190,46 +190,42 @@ msgstr "parancssor"
 msgid "Read profile %s\n"
 msgstr "A(z) %s profil olvasása\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Belső pufferhiba"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Nem lehet megnyitni a(z) %s bemeneti fájlt"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Nem lehet a statolni a(z) %s bemeneti fájlt"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Figyelmeztetés: a(z) %s fájl nulla hosszúságú"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "A(z) %s fájl túl hosszú az olvasáshoz"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Rendszerprobléma a(z) %s fájl olvasása közben"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Hiba a(z) %s bemeneti fájl olvasása közben"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Hiba a(z) %s bemeneti fájl lezárásakor"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Figyelmeztetés: A(z) %s fájl NULL karaktereket tartalmaz\n"
@@ -278,6 +274,9 @@ msgstr "Ismeretlen kód a feldolgozóban"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NINCS MEG A „@” FÁJL!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Belső pufferhiba"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "A memória elfogyott"

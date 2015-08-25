@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-23 20:41+0300\n"
 "Last-Translator:  Roumen Petrov <transl@roumenpetrov.info>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
@@ -184,46 +184,42 @@ msgstr "команден ред"
 msgid "Read profile %s\n"
 msgstr "Прочетени настройки от файл %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Вътрешна грешка при буфериране"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Не може да се отвори входящия файл %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Не може да се определи входящия файл %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Файл с нулева дължина %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Файлът %s е твърде голям, за да се прочете"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Системен проблем  при четене на файл %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Грешка при четене на входящ файл %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "Грешка при затваряне на входящ файл %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Файлът %s съдържа NULL-знаци, не може да се обработи\n"
@@ -273,3 +269,6 @@ msgstr "Неразпознат код при обработка"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "НЕ Е НАМЕРЕН '@' ФАЙЛ!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Вътрешна грешка при буфериране"

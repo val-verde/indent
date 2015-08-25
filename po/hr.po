@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2012-07-18 23:45+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -182,46 +182,42 @@ msgstr "naredbeni redak"
 msgid "Read profile %s\n"
 msgstr "Čitaj profil %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Interna greška međuspremnika"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Ne mogu otvoriti ulaznu datoteku %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Ne mogu izvršiti stat na ulaznoj datoteci %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Upozorenje: Datoteka duljine nula %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Datoteka %s je prevelika za čitanje"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Problem sustava pri čitanju datoteke %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Greška čitanja ulazne datoteke %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Greška zatvaranja ulazne datoteke %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Upozorenje: Datoteka %s sadrži prazne (NULL) znakove\n"
@@ -270,6 +266,9 @@ msgstr "Nepoznat kod za parser"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NE MOGU PRONAĆI „@” DATOTEKU!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Interna greška međuspremnika"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Ponestalo je memorije"

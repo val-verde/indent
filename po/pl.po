@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-24 14:57+0200\n"
 "Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -186,46 +186,42 @@ msgstr "linia poleceñ"
 msgid "Read profile %s\n"
 msgstr "Czytanie profilu %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Wewnêtrzny b³±d buforowania"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Nie mo¿na otworzyæ pliku wej¶ciowego %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Nie mo¿na wykonaæ stat na pliku wej¶ciowym %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Plik o zerowej d³ugo¶ci: %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Plik %s jest zbyt du¿y, ¿eby móg³ byæ odczytany"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Problem systemowy podczas odczytu pliku %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "B³±d podczas odczytu pliku wej¶ciowego %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "B³±d podczas zamykania pliku wej¶ciowego %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Uwaga: Plik %s zawiera znaki NULL: nie mo¿na kontynuowaæ\n"
@@ -274,6 +270,9 @@ msgstr "Kod nieznany dla analizatora"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NIE MO¯NA ZNALE¬Æ PLIKU '@'!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Wewnêtrzny b³±d buforowania"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Pamiêæ siê skoñczy³a"

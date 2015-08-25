@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2008-05-18 13:59中国标准时间\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -180,46 +180,42 @@ msgstr "命令行"
 msgid "Read profile %s\n"
 msgstr "读取配置文件 %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "内部缓充区错误"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "无法打开输入文件 %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "无法统计输入文件 %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "警告：0 字节文件 %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "文件 %s 太大，无法读取"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "读取文件 %s 时系统出现问题"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "读取输入文件 %s 时出错"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "关闭输入文件 %s 时出错"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "警告：文件 %s 包含 NULL 字符\n"
@@ -267,6 +263,9 @@ msgstr "未知代码无法解析"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "找不到‘@’文件！"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "内部缓充区错误"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "内存不足"

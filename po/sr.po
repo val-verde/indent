@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent-2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2012-01-05 01:47+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnu@prevod.org>\n"
@@ -183,46 +183,42 @@ msgstr "линија наредби"
 msgid "Read profile %s\n"
 msgstr "Учитај профил %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Унутрашња грешка баферовања"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Не могу да отворим улазну датотеку %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Не могу да проучим улазну датотеку %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Упозорење: Датотека нулте величине %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Датотека %s је исувише велика за читање"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Системски проблем читајући датотеку %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Грешка читајући улазну датотеку %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Грешка при затварању улазне датотеке %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Упозорење: Датотека %s садржи непостојеће (NULL) знакове\n"
@@ -270,6 +266,9 @@ msgstr "Непознат кôд растављачу"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "НЕ МОГУ ДА ПРОНАЂЕМ „@“ ДАТОТЕКУ!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Унутрашња грешка баферовања"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Истрошена је сва меморија"

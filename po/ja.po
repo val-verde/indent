@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.9\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2006-03-20 10:36+0900\n"
 "Last-Translator: GOTO Masanori <gotom@debian.or.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -178,46 +178,42 @@ msgstr ""
 msgid "Read profile %s\n"
 msgstr "プロファイル %s を読みます\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "内部バッファリングエラー"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "入力ファイル %s が開けません"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "入力ファイル %s を stat できません"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "警告: 長さゼロのファイル %s です"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "ファイル %s は読込むには大きすぎます"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "ファイル %s を読込み中にシステム問題が発生しました"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "入力ファイル %s の読込みエラー"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "入力ファイル %s を閉じるときにエラー"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "警告: ファイル %s は NULL文字を含んでいます\n"
@@ -265,6 +261,9 @@ msgstr "パーサーへの不明なコード"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "'@' ファイルを見つけられません!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "内部バッファリングエラー"
 
 #~ msgid "usage: indent file [-o outfile ] [ options ]\n"
 #~ msgstr ""

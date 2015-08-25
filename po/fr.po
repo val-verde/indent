@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-22 20:11+0200\n"
 "Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -191,46 +191,42 @@ msgstr "ligne de commande"
 msgid "Read profile %s\n"
 msgstr "Lecture du profil %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Erreur interne de stockage"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Ne peut ouvrir le fichier d'entrée %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Ne peut évaluer le fichier d'entrée %s par stat()"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Le fichier %s à une longueur nulle"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Fichier %s est trop grand pour être lu"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Problème système lors de la lecture de fichier %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Erreur de lecture du fichier d'entrée %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "Erreur de fermeture du fichier d'entrée %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Le fichier %s contient des caractères NULL: impossible de continuer\n"
@@ -278,6 +274,9 @@ msgstr "Code inconnu de l'analyseur syntaxique"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NE PEUT REPÉRER LE FICHIER « @ » !"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Erreur interne de stockage"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Mémoire épuisée"

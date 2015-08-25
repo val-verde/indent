@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2010-08-04 17:07+0300\n"
 "Last-Translator: Toomas Soome <Toomas.Soome@microlink.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
@@ -183,46 +183,42 @@ msgstr "käsurida"
 msgid "Read profile %s\n"
 msgstr "Lugesin profiili %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Sisemine puhverduse viga"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Ei õnnestu avada sisendfaili %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Ei õnnestu lugeda sisendfaili %s atribuute"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Hoiatus: null-pikkusega fail %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Fail %s on lugemiseks liiga suur"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Süsteemi tõrge faili %s lugemisel"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Viga sisendfaili %s lugemisel"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Viga sisendfaili %s sulgemisel"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Hoiatus: Fail %s sisaldab NULL sümboleid\n"
@@ -270,6 +266,9 @@ msgstr "Parser sai tundmatu koodi"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "EI LEIA '@' FAILI!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Sisemine puhverduse viga"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Mälu on otsas"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2013-03-17 18:22+0100\n"
 "Last-Translator: Volkan Gezer <vlkngzr@gmail.com>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
@@ -185,46 +185,42 @@ msgstr "komut satýrý"
 msgid "Read profile %s\n"
 msgstr "Profile %s okundu\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Ýçsel önbellek hatasý"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "%s girdi dosyasý açýlamadý"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "%s girdi dosyasý durumlanamadý"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Uyarý: %s dosyasý boþ"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "%s dosyasý okumak için fazla büyük"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "%s dosyasý okunurken sistem problemi"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "%s girdi dosyasý okunurken hata"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "%s girdi dosyasý kapatýlýrken hata"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Uyarý: %s dosyasý NULL karakter içeriyor\n"
@@ -273,6 +269,9 @@ msgstr "Ayrýþtýrýcýya bilinmeyen kod"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "'@' DOSYASI BULUNAMADI!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Ýçsel önbellek hatasý"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Bellek tükendi"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent-2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2010-11-25 15:44+0100\n"
 "Last-Translator: Sergio Zanchetta <primes2h@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -186,46 +186,42 @@ msgstr "riga di comando"
 msgid "Read profile %s\n"
 msgstr "Letto il profilo %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Errore interno di riempimento del buffer"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Impossibile aprire il file di input %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Impossibile fare lo stat del file di input %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Attenzione: il file %s ha lunghezza pari a zero"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Il file %s è troppo grande da leggere"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Problema di sistema nella lettura del file %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Errore nella lettura del file di input %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Errore nella chiusura del file di input %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Attenzione: il file %s contiene caratteri NULL\n"
@@ -275,6 +271,9 @@ msgstr "Analizzato codice sconosciuto"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "IMPOSSIBILE TROVARE IL FILE \"@\"."
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Errore interno di riempimento del buffer"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Memoria esaurita"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent-2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-22 20:21+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -189,46 +189,42 @@ msgstr "opdrachtregel"
 msgid "Read profile %s\n"
 msgstr "Profiel %s gelezen\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "*Interne bufferfout*"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Kan invoerbestand %s niet openen"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Kan status van invoerbestand %s niet opvragen"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Bestand %s heeft lengte nul"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Bestand %s is te groot om in te lezen"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Systeem heeft problemen met het lezen van bestand %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Fout bij lezen van invoerbestand %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "Fout bij sluiten van invoerbestand %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Bestand %s bevat NULL-tekens; kan niet verdergaan\n"
@@ -277,6 +273,9 @@ msgstr "Onbekende code voor de ontleder"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "KAN '@'-BESTAND NIET VINDEN!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "*Interne bufferfout*"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Onvoldoende geheugen beschikbaar"

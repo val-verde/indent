@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent-2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2009-04-29 00:00+0000\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -187,46 +187,42 @@ msgstr "kommandolinje"
 msgid "Read profile %s\n"
 msgstr "Læste profilen %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Intern bufferfejl"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Kan ikke åbne inddatafil %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Kan ikke give status på inddatafil %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Advarsel: tom fil %s"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Fil %s er for stor til at kunne læses"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Systemproblem ved læsning af fil %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Fejl ved læsning af inddatafil %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Fejl ved lukning af inddatafil %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Advarsel: Filen %s indeholder NULL-tegn\n"
@@ -274,6 +270,9 @@ msgstr "Parser fandt en uventet værdi"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "KAN IKKE FINDE '@' FIL!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Intern bufferfejl"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Løb tør for hukommelse"

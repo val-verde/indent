@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 1.9.1a\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 1997-01-24 10:21+0900\n"
 "Last-Translator: Bang Jun-Young <bangjy@nownuri.nowcom.co.kr>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -180,46 +180,42 @@ msgstr ""
 msgid "Read profile %s\n"
 msgstr "프로파일 %s을 읽었습니다\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "내부 버퍼링 오류"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr ""
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr ""
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "경고: 파일 %s는 크기가 0입니다"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr ""
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr ""
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr ""
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr ""
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "경고: 파일 %s는 NULL 문자를 포함하고 있습니다\n"
@@ -267,6 +263,9 @@ msgstr "파서가 알 수 없는 코드"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr ""
+
+#~ msgid "Internal buffering error"
+#~ msgstr "내부 버퍼링 오류"
 
 #~ msgid "usage: %s file [-o outfile ] [ options ]\n"
 #~ msgstr "사용법: %s 파일 [-o 출력파일] [ 옵션 ]\n"

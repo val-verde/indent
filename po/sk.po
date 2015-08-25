@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-24 15:03+0200\n"
 "Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -182,46 +182,42 @@ msgstr "príkazový riadok"
 msgid "Read profile %s\n"
 msgstr "Čítať profil %s\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Interná chyba vyrovnávacej pamäte"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Nemôžem otvoriť vstupný súbor %s"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Nemôžem zistiť stav vstupného súboru %s"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, c-format
 msgid "Zero-length file %s"
 msgstr "Súbor %s má nulovú dĺžku"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "Súbor %s je príliš veľký na čítanie"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Systémový problém pri čítaní súboru %s"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Chyba pri čítaní vstupného súboru %s"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, c-format
 msgid "Error closing input file %s"
 msgstr "Chyba pri zatváraní vstupného súboru %s"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Súbor %s obsahuje nulové znaky: nemožno pokračovať\n"
@@ -270,6 +266,9 @@ msgstr "Analyzátor nepozná tento kód"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "NEPODARILO SA NÁJSŤ SÚBOR '@'!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Interná chyba vyrovnávacej pamäte"
 
 #~ msgid "Ran out of memory"
 #~ msgstr "Beh vyčerpal pamäť"

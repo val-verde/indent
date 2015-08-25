@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:04+0200\n"
+"POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2004-05-04 17:52+0200\n"
 "Last-Translator: Mikel Olasagasti <hey_neken@euskal.org>\n"
 "Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
@@ -182,46 +182,42 @@ msgstr ""
 msgid "Read profile %s\n"
 msgstr "Irakurri %s profila\n"
 
-#: src/code_io.c:173
-msgid "Internal buffering error"
-msgstr "Errorea barneko bufferrean gordetzen"
-
-#: src/code_io.c:271
+#: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
 msgstr "Ezin ireki %s sarrera fitxategia"
 
-#: src/code_io.c:276
+#: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
 msgstr "Ezin da lortu %s sarrera fitxategiaren egorea"
 
-#: src/code_io.c:281
+#: src/code_io.c:227
 #, fuzzy, c-format
 msgid "Zero-length file %s"
 msgstr "Oharra: %s fitxategiak edukirik gabe"
 
-#: src/code_io.c:289 src/code_io.c:303
+#: src/code_io.c:235 src/code_io.c:249
 #, c-format
 msgid "File %s is too big to read"
 msgstr "%s fitxategia handiegia da irakurtzeko"
 
-#: src/code_io.c:297
+#: src/code_io.c:243
 #, c-format
 msgid "System problem reading file %s"
 msgstr "Sistemaren arazoa %s fitxategia irakurtzen"
 
-#: src/code_io.c:339
+#: src/code_io.c:285
 #, c-format
 msgid "Error reading input file %s"
 msgstr "Errorea %s sarrera fitxategia irakurtzen"
 
-#: src/code_io.c:347
+#: src/code_io.c:293
 #, fuzzy, c-format
 msgid "Error closing input file %s"
 msgstr "Errorea %s sarrea fitxategia itxitzean"
 
-#: src/code_io.c:536
+#: src/code_io.c:482
 #, fuzzy, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
 msgstr "Oharra: %s fitxategiak NULL karaktereak ditu\n"
@@ -269,6 +265,9 @@ msgstr "Parseatzeko kode ezezaguna"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "EZIN AURKITU '@' FITXATEGIA!"
+
+#~ msgid "Internal buffering error"
+#~ msgstr "Errorea barneko bufferrean gordetzen"
 
 #~ msgid "usage: indent file [-o outfile ] [ options ]\n"
 #~ msgstr "erabilera: indent fitxategia [-o irteera fitxategia ] [ aukerak ]\n"
