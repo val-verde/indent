@@ -1,3 +1,18 @@
+2015-08-25 Andrew Shadura <andrew@shadura.me>
+	* Stop translating debug strings.
+	* Update the translations.
+	* Drop support for VMS and Watcom.
+
+2015-08-24 Andrew Shadura <andrew@shadura.me>
+	* Update the translations.
+	* Update autoconf files.
+
+2015-08-21 Andrew Shadura <andrew@shadura.me>
+	* Reformat the README file using basic Markdown.
+	* Regenerate headers.
+	* Regenerate documentation.
+	* Regenerate translations.
+
 2015-07-04 Tim Hentenaar <tim@hentenaar.com>
 	* handletoken.c: Detect C99 compound literals.
 	* Makefile.am: Add -Wextra to AM_CFLAGS.
