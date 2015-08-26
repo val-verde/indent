@@ -2,13 +2,13 @@
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the indent package.
 # Meng Jie <zuxyhere@eastday.com>, 2004.
-# Ji ZhengYu <zhengyuji@gmail.com>, 2008.
+# Ji ZhengYu <zhengyuji@gmail.com>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: indent 2.2.10\n"
+"Project-Id-Version: indent-2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2008-05-18 13:59中国标准时间\n"
+"PO-Revision-Date: 2015-08-27 03:47中国标准时间\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -191,9 +191,9 @@ msgid "Can't stat input file %s"
 msgstr "无法统计输入文件 %s"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "警告：0 字节文件 %s"
+msgstr "文件 %s 长度为 0"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -211,14 +211,14 @@ msgid "Error reading input file %s"
 msgstr "读取输入文件 %s 时出错"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "关闭输入文件 %s 时出错"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "警告：文件 %s 包含 NULL 字符\n"
+msgstr "文件 %s 包含 NULL 字符: 无法处理\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -229,9 +229,9 @@ msgid "Unterminated string constant"
 msgstr "未结束的字符串常量"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "旧式赋值“=%s”有歧义。假定为“= %s”\n"
+msgstr "原assignment 方式在 \"=%s\" 中有歧义。认为是 \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format
