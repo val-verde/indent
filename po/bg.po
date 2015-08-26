@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2015-08-23 20:41+0300\n"
+"PO-Revision-Date: 2015-08-26 18:34+0300\n"
 "Last-Translator:  Roumen Petrov <transl@roumenpetrov.info>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -58,7 +58,7 @@ msgstr "set_option: вътрешна грешка: p_type %d\n"
 
 #: src/args.c:1022
 msgid "Profile contains an unterminated comment"
-msgstr "Файла с настройките съдържа незавършен коментар"
+msgstr "Файла с настройките съдържа незавършена бележка"
 
 #: src/args.c:1060
 msgid "Profile contains unpalatable characters"
@@ -84,22 +84,22 @@ msgstr "indent:  Използване на \"номериран-съществу
 #: src/backup.c:495
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: Не можа да се създаде резервно копие за %s\n"
+msgstr "indent: Не можа да се създаде запасно копие за %s\n"
 
 #: src/backup.c:503
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Не можа да се отвори файл за резервно копие %s"
+msgstr "Не можа да се отвори файл за запасно копие %s"
 
 #: src/backup.c:510
 #, c-format
 msgid "Can't write to backup file %s"
-msgstr "Не можа да се запише във файл за резервно копие %s"
+msgstr "Не можа да се запише във файл за запасно копие %s"
 
 #: src/backup.c:523
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
-msgstr "Не можа да се запази дата и час на промяна за резервно копие %s"
+msgstr "Не можа да се запази дата и час на промяна за запасно копие %s"
 
 #: src/globs.c:46 src/globs.c:68
 #, c-format
@@ -131,7 +131,7 @@ msgstr "Грешка"
 
 #: src/indent.c:291
 msgid "EOF encountered in comment"
-msgstr "Сблъскване с край на файл в коментар"
+msgstr "Сблъскване с край на файл при бележка"
 
 #: src/indent.c:354
 msgid "Line broken"
@@ -144,12 +144,12 @@ msgstr "Неочакван край на файл"
 #: src/indent.c:570
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
-msgstr "Намерени %d изходящи реда, които не са празни и %d коментари\n"
+msgstr "Намерени %d изходящи реда, които не са празни и %d бележки\n"
 
 #: src/indent.c:574
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
-msgstr "(Редове с коментари)/(Редове с код): %6.3f\n"
+msgstr "(Редове с бележки)/(Редове с код): %6.3f\n"
 
 #: src/indent.c:598
 msgid "Line broken 2"
@@ -236,7 +236,7 @@ msgstr "Незавършена константа за низ"
 #, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"остарял двусмислен начин за присвояване при \"=%s\".  Предполага се \"= %s"
+"Остарял двусмислен начин за присвояване при \"=%s\".  Предполага се \"= %s"
 "\"\n"
 
 #: src/output.c:1339
@@ -269,6 +269,3 @@ msgstr "Неразпознат код при обработка"
 #: src/wildexp.c:128
 msgid "CANNOT FIND '@' FILE!"
 msgstr "НЕ Е НАМЕРЕН '@' ФАЙЛ!"
-
-#~ msgid "Internal buffering error"
-#~ msgstr "Вътрешна грешка при буфериране"
