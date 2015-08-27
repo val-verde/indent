@@ -234,10 +234,10 @@ msgid "Unterminated string constant"
 msgstr "Sonlanmamýþ dizge sabiti"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"\"=%c\" içerisinde eski tarz deðer atama belirsizliði. =%c varsayýldý.\n"
+"\"=%s\" içerisinde eski tarz deðer atama belirsizliði. =%s varsayýldý.\n"
 
 #: src/output.c:1339
 #, c-format

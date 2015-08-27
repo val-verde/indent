@@ -239,10 +239,10 @@ msgid "Unterminated string constant"
 msgstr "Lezáratlan karakterlánc-állandó"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"régi stílusú kétértelmű hozzárendelés \"=%c\".  \"= %c\" feltételezve\n"
+"régi stílusú kétértelmű hozzárendelés \"=%s\".  \"= %s\" feltételezve\n"
 
 #: src/output.c:1339
 #, c-format

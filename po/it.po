@@ -235,10 +235,10 @@ msgid "Unterminated string constant"
 msgstr "Costante di tipo stringa non terminata"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"ambiguità nell'assegnamento di vecchio stile in \"=%c\". Viene assunto \"= %c"
+"ambiguità nell'assegnamento di vecchio stile in \"=%s\". Viene assunto \"= %s"
 "\"\n"
 
 #: src/output.c:1339

@@ -227,9 +227,9 @@ msgid "Unterminated string constant"
 msgstr "Oavslutad strängkonstant"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "tvetydighet i tilldelningen \"=%c\" (gammal form).  Antar \"= %c\"\n"
+msgstr "tvetydighet i tilldelningen \"=%s\" (gammal form).  Antar \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

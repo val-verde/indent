@@ -229,10 +229,10 @@ msgid "Unterminated string constant"
 msgstr "可能少掉一個字串雙引號"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"有疑義的指定敘述 \"=%c\"，可能為舊式的寫法。indent 將假設它為 \"= %c\"\n"
+"有疑義的指定敘述 \"=%s\"，可能為舊式的寫法。indent 將假設它為 \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

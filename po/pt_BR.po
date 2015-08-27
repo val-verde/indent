@@ -233,10 +233,10 @@ msgid "Unterminated string constant"
 msgstr "Constante de string sem terminador"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"ambigüidade na designação estilo antigo em \"=%c\".  Assumindo \"= %c\"\n"
+"ambigüidade na designação estilo antigo em \"=%s\".  Assumindo \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

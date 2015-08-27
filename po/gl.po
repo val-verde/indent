@@ -242,10 +242,10 @@ msgid "Unterminated string constant"
 msgstr "Constante de cadea sen rematar"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"ambigüidade na asignación ao vello estilo en «=%c».  Supoñendo «= %c»\n"
+"ambigüidade na asignación ao vello estilo en «=%s».  Supoñendo «= %s»\n"
 
 #: src/output.c:1339
 #, c-format

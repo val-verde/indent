@@ -236,9 +236,9 @@ msgid "Unterminated string constant"
 msgstr "Uafsluttet strengkonstant"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "tildeling i gammel stil er flertydig: \"=%c\". Antager \"= %c\"\n"
+msgstr "tildeling i gammel stil er flertydig: \"=%s\". Antager \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

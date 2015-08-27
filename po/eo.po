@@ -232,9 +232,9 @@ msgid "Unterminated string constant"
 msgstr "Nefinita ĉen-konstanto"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "malnovstila plursenceco de atribuado en \"=%c\". Supozas \"= %c\"\n"
+msgstr "malnovstila plursenceco de atribuado en \"=%s\". Supozas \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

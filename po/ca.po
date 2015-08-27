@@ -232,9 +232,9 @@ msgid "Unterminated string constant"
 msgstr "La constant string no és acabada"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "ambigüetat d'assignació old-style en \"=%c\".  S'assumeix \"= %c\"\n"
+msgstr "ambigüetat d'assignació old-style en \"=%s\".  S'assumeix \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format

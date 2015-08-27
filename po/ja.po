@@ -227,9 +227,9 @@ msgid "Unterminated string constant"
 msgstr "文字列が終了していません"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "\"=%c\" 中で古いスタイルの割当ての曖昧な表現. \"= %c\" と仮定します\n"
+msgstr "\"=%s\" 中で古いスタイルの割当ての曖昧な表現. \"= %s\" と仮定します\n"
 
 #: src/output.c:1339
 #, c-format
