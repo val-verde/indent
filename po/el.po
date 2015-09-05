@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: indent-2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2015-09-05 08:49+0200\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"PO-Revision-Date: 2015-09-05 10:25+0200\n"
+"Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek "
 "<https://hosted.weblate.org/projects/indent/translations/el/>\n"
 "Language: el\n"
@@ -75,12 +75,12 @@ msgstr ""
 #: src/backup.c:463
 #, c-format
 msgid "indent:  Strange version-control value\n"
-msgstr "indent:  Περίεργη τιμή ελέγχου-έκδοσης\n"
+msgstr "indent:  Άγνωστη τιμή ελέγχου-έκδοσης\n"
 
 #: src/backup.c:464
 #, c-format
 msgid "indent:  Using numbered-existing\n"
-msgstr ""
+msgstr "indent:  Χρήση numbered-existing\n"
 
 #: src/backup.c:495
 #, c-format
@@ -221,14 +221,14 @@ msgid "Error reading input file %s"
 msgstr "Σφάλμα ανάγνωσης του αρχείου εισόδου %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Σφάλμα κλεισίματος του αρχείου εισόδου %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Προειδοποίηση: Το αρχείο %s περιέχει χαρακτήρες NULL\n"
+msgstr "Το αρχείο %s περιέχει χαρακτήρες NULL: αδύνατη η συνέχιση\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -239,7 +239,7 @@ msgid "Unterminated string constant"
 msgstr "Μη τερματισμένη σταθερά συμβολοσειράς"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr "ασαφής εκχώρηση παλιού στυλ στο \"=%s\".  Υποθέτοντας ότι \"= %s\"\n"
 
