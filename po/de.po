@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2015-08-25 13:57+0200\n"
-"Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
+"PO-Revision-Date: 2015-10-25 22:07+0200\n"
+"Last-Translator: Julian Ladisch <github.com-t3if@ladisch.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "indent: Name der Backup-Datei für %s kann nicht ermittelt werden.\n"
 #: src/backup.c:503
 #, c-format
 msgid "Can't open backup file %s"
-msgstr "Backup-Datei %s läßt sich nicht öffnen"
+msgstr "Backup-Datei %s lässt sich nicht öffnen"
 
 #: src/backup.c:510
 #, c-format
@@ -100,7 +100,7 @@ msgstr "In die Backup-Datei %s kann nicht geschrieben werden"
 #, c-format
 msgid "Can't preserve modification time on backup file %s"
 msgstr ""
-"Die Modifikationszeit kann für die Backup-Datei %s nicht erhalten werden"
+"Die Modifikationszeit kann für die Backup-Datei %s nicht beibehalten werden"
 
 #: src/globs.c:46 src/globs.c:68
 #, c-format
@@ -132,7 +132,7 @@ msgstr "Fehler"
 
 #: src/indent.c:291
 msgid "EOF encountered in comment"
-msgstr "EOF in Kommentar gefunden"
+msgstr "Dateiende innerhalb des Kommentars erreicht"
 
 #: src/indent.c:354
 msgid "Line broken"
@@ -190,12 +190,12 @@ msgstr "Lese Vorgabedatei (»profile«) %s.\n"
 #: src/code_io.c:217
 #, c-format
 msgid "Can't open input file %s"
-msgstr "Die Eingabedatei %s läßt sich nicht öffnen"
+msgstr "Die Eingabedatei %s lässt sich nicht öffnen"
 
 #: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Für die Eingabedatei %s kann stat nicht ausgeführt werden"
+msgstr "Kann die Dateieigenschaften (stat) der Eingabedatei %s nicht abrufen"
 
 #: src/code_io.c:227
 #, c-format
@@ -255,7 +255,7 @@ msgstr "Die Ausgabedatei %s kann nicht geschlossen werden"
 #: src/output.c:1390
 #, c-format
 msgid "Can't preserve modification time on output file %s"
-msgstr "Die Modifikationszeit der Ausgabedatei %s kann nicht erhalten werden"
+msgstr "Die Modifikationszeit der Ausgabedatei %s kann nicht beibehalten werden"
 
 # Shouldn't the message say 'else without if'?
 #: src/parse.c:474
