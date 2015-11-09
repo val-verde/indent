@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2010-08-04 17:07+0300\n"
-"Last-Translator: Toomas Soome <Toomas.Soome@microlink.ee>\n"
-"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"PO-Revision-Date: 2015-11-09 09:28+0000\n"
+"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
+"Language-Team: Estonian "
+"<https://hosted.weblate.org/projects/indent/translations/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: src/args.c:673
 msgid ""
@@ -194,9 +197,9 @@ msgid "Can't stat input file %s"
 msgstr "Ei õnnestu lugeda sisendfaili %s atribuute"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Hoiatus: null-pikkusega fail %s"
+msgstr "Tühi fail %s"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -214,14 +217,14 @@ msgid "Error reading input file %s"
 msgstr "Viga sisendfaili %s lugemisel"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Viga sisendfaili %s sulgemisel"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Hoiatus: Fail %s sisaldab NULL sümboleid\n"
+msgstr "Failis %s on NULL sümboleid: ei saa jätkata\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -232,9 +235,9 @@ msgid "Unterminated string constant"
 msgstr "Lõpetamata sõne konstant"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "vanas stiilis omistamine \"=%c\". Eeldan \"= %c\"\n"
+msgstr "vanas stiilis mitmeti mõistetav omistamine  \"=%s\". Oletan \"= %s\"\n"
 
 #: src/output.c:1339
 #, c-format
