@@ -1094,7 +1094,7 @@ appear at one indention level deeper than the function declaration.  This
 is particularly helpful for functions with long argument lists. 
 The option @option{-bfde} causes a newline to be forced before the closing 
 bracket of the function declaration. For both options the 'n' setting is the default:
--nbdfa and -nbdfe.
+-nbfda and -nbfde.
 
 
 For 
