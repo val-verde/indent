@@ -10,13 +10,16 @@ msgstr ""
 "Project-Id-Version: GNU indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2013-01-21 09:43+0000\n"
-"Last-Translator: Edmund GRIMLEY EVANS <edmundo@rano.org>\n"
-"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2016-02-22 13:18+0000\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto "
+"<https://hosted.weblate.org/projects/indent/translations/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: src/args.c:673
 msgid ""
@@ -194,9 +197,9 @@ msgid "Can't stat input file %s"
 msgstr "Ne povas uzi 'stat' sur enigdosiero %s"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Averto: malplena dosiero %s"
+msgstr "Dosiero kun nula grandeco %s"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -214,14 +217,14 @@ msgid "Error reading input file %s"
 msgstr "Eraro dum legado de %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
-msgstr "Eraro dum fermado de %s"
+msgstr "Eraro dum fermo de enig-dosiero %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Averto: Dosiero %s enhavas NUL-signojn\n"
+msgstr "Dosiero %s enhavas NUL-signojn: ne eblas daŭrigi\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
