@@ -9,30 +9,34 @@ msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2002-10-28 23:00-0300\n"
-"Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"PO-Revision-Date: 2016-02-22 13:26+0000\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) "
+"<https://hosted.weblate.org/projects/indent/translations/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.5-dev\n"
 
 #: src/args.c:673
-#, fuzzy
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
-msgstr "     indent arq1 arq2 ... arqN [ opções ]\n"
+msgstr ""
+"uso: indent arq [-o saída] [opções]\n"
+"     indent arq1 arq2 ... arqN [ opções ]\n"
 
 #: src/args.c:740
-#, fuzzy, c-format
+#, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "indent: faltando argumento do parâmetro %s\n"
+msgstr "%s: falta argumento do parâmetro %s\n"
 
 #: src/args.c:864
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "indent: opção \"%s\" desconhecida\n"
+msgstr "%s: opção \"%s\" desconhecida\n"
 
 #: src/args.c:877
 #, c-format
@@ -45,14 +49,14 @@ msgid "GNU indent %s\n"
 msgstr "GNU indent %s\n"
 
 #: src/args.c:959
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "indent: opção ``%s'' requer um parâmetro numérico\n"
+msgstr "%s: a opção \"%s'' requer um parâmetro numérico\n"
 
 #: src/args.c:966
-#, fuzzy, c-format
+#, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "indent: set_option: erro interno: p_type %d\n"
+msgstr "set_option: erro interno: p_type %d\n"
 
 #: src/args.c:1022
 msgid "Profile contains an unterminated comment"
@@ -66,6 +70,7 @@ msgstr "O Perfil contém caracteres inaceitáveis"
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
 msgstr ""
+"O arquivo indicado pela variável de ambiente %s não existe ou não é legível"
 
 #: src/backup.c:463
 #, c-format
@@ -177,7 +182,7 @@ msgstr "indent: apenas um arquivo de entrada quando se usa stdout\n"
 
 #: src/indent.c:898
 msgid "command line"
-msgstr ""
+msgstr "linha de comando"
 
 #: src/indent.c:1116
 #, c-format
@@ -195,9 +200,9 @@ msgid "Can't stat input file %s"
 msgstr "Impossível obter informações do arquivo de entrada %s"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Aviso: arquivo vazio %s"
+msgstr "Arquivo de tamanho nulo %s"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -215,14 +220,14 @@ msgid "Error reading input file %s"
 msgstr "Erro lendo o arquivo de entrada %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
-msgstr "Erro fechando o arquivo de entrada %s"
+msgstr "Erro ao fechar o arquivo de entrada %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Aviso: O arquivo %s contém caracteres nulos\n"
+msgstr "O arquivo %s contém caracteres nulos: não se pode prosseguir\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
