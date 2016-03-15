@@ -3,6 +3,7 @@
 # Copyright (C) 1997, 2001, 2002 Free Software Foundation, Inc.
 # Martin von Löwis <martin@v.loewis.de>, 1997, 2001, 2002.
 # Jakob Kramer <jakob.kramer@gmx.de>, 2012.
+# Julian Ladisch <github.com-t3if@ladisch.de>, 2015.
 #
 msgid ""
 msgstr ""

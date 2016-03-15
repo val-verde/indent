@@ -2,10 +2,11 @@
 # Estonian translations for indent.
 # Copyright (C) 2000 Free Software Foundation, Inc.
 # Toomas Soome <Toomas.Soome@microlink.ee>, 2010.
+# Kristjan Räts <kristjanrats@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indent 2.2.10\n"
+"Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-11-09 09:28+0000\n"

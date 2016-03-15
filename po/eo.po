@@ -3,11 +3,11 @@
 #
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Edmund GRIMLEY EVANS <edmundo@rano.org>, 2001-2002, 2013.
-# Felipe Castro <fefcas@gmail.com>, 2009.
+# Felipe Castro <fefcas@gmail.com>, 2009, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU indent 2.2.10\n"
+"Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2016-02-22 13:18+0000\n"

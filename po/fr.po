@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: indent 2.2.12\n"
+"Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
 "PO-Revision-Date: 2015-08-22 20:11+0200\n"

@@ -3,6 +3,7 @@
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2002.
 # based on the translation to Galician (gl) by
 # Jacobo Tarrío Barreiro <jtarrio@trasno.net>, 2000.
+# Felipe Castro <fefcas@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
