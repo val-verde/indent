@@ -7,30 +7,33 @@ msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2002-10-25 19:20+0200\n"
-"Last-Translator: Christian Rose <menthos@menthos.com>\n"
+"PO-Revision-Date: 2017-09-24 09:53+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #: src/args.c:673
-#, fuzzy
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
-msgstr "       indent fil1 fil2 ... filN [ flaggor ]\n"
+msgstr ""
+"användning: indent fil [-o utfil ] [ flaggor ]\n"
+"               indent fil1 fil2 ... filN [ flaggor ]\n"
 
 #: src/args.c:740
-#, fuzzy, c-format
+#, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "indent: parametern %s saknar argument\n"
+msgstr "%s: parametern %s saknar argument\n"
 
 #: src/args.c:864
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "indent: okänd flagga \"%s\"\n"
+msgstr "%s: okänd flagga \"%s\"\n"
 
 #: src/args.c:877
 #, c-format
@@ -43,14 +46,14 @@ msgid "GNU indent %s\n"
 msgstr "GNU indent %s\n"
 
 #: src/args.c:959
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "indent: flaggan \"%s\" kräver en numerisk parameter\n"
+msgstr "%s: flaggan \"%s\" kräver en numerisk parameter\n"
 
 #: src/args.c:966
-#, fuzzy, c-format
+#, c-format
 msgid "set_option: internal error: p_type %d\n"
-msgstr "indent: set_option: internt fel: p_type %d\n"
+msgstr "set_option: internt fel: p_type %d\n"
 
 #: src/args.c:1022
 msgid "Profile contains an unterminated comment"
@@ -63,7 +66,7 @@ msgstr "Profilen innehåller osmakliga tecken"
 #: src/args.c:1228
 #, c-format
 msgid "File named by environment variable %s does not exist or is not readable"
-msgstr ""
+msgstr "Fil namngiven av miljövariabeln %s finns inte eller är inte läsbar"
 
 #: src/backup.c:463
 #, c-format
@@ -171,7 +174,7 @@ msgstr "indent: endast en indatafil när standard ut används\n"
 
 #: src/indent.c:898
 msgid "command line"
-msgstr ""
+msgstr "kommandorad"
 
 #: src/indent.c:1116
 #, c-format
@@ -189,9 +192,9 @@ msgid "Can't stat input file %s"
 msgstr "Kan inte ta status på indatafilen %s"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Varning: Filen %s är tom"
+msgstr "Filen %s har längden noll"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -209,14 +212,14 @@ msgid "Error reading input file %s"
 msgstr "Fel vid läsning av indatafilen %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Fel vid stängning av indatafilen %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Varning: Filen %s innehåller NULL-tecken\n"
+msgstr "Filen %s innehåller NULL-tecken: kan inte fortsätta\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
