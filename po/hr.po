@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2012-07-18 23:45+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2017-10-08 13:19+0000\n"
+"Last-Translator: Andrew Shadura <andrew@shadura.me>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #: src/args.c:673
 msgid ""
@@ -193,9 +194,9 @@ msgid "Can't stat input file %s"
 msgstr "Ne mogu izvršiti stat na ulaznoj datoteci %s"
 
 #: src/code_io.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "Zero-length file %s"
-msgstr "Upozorenje: Datoteka duljine nula %s"
+msgstr "Datoteka duljine nula %s"
 
 #: src/code_io.c:235 src/code_io.c:249
 #, c-format
@@ -213,14 +214,14 @@ msgid "Error reading input file %s"
 msgstr "Greška čitanja ulazne datoteke %s"
 
 #: src/code_io.c:293
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing input file %s"
 msgstr "Greška zatvaranja ulazne datoteke %s"
 
 #: src/code_io.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "File %s contains NULL-characters: cannot proceed\n"
-msgstr "Upozorenje: Datoteka %s sadrži prazne (NULL) znakove\n"
+msgstr "Datoteka %s sadrži prazne (NULL) znakove: ne može se nastaviti\n"
 
 #: src/lexi.c:834
 msgid "Unterminated character constant"
@@ -231,7 +232,7 @@ msgid "Unterminated string constant"
 msgstr "Nezavršena konstanta znakovnog niza"
 
 #: src/lexi.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
 "višeznačnost starog načina pridruživanja u „=%s”.  Pretpostavljam „= %s”\n"
