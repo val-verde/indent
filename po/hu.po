@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2018-02-10 14:35+0000\n"
+"PO-Revision-Date: 2018-02-11 15:37+0000\n"
 "Last-Translator: Marczis István <marczisi@yahoo.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -25,7 +25,7 @@ msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"használat: indent fájl [-o kimenetifájl ] [ opciók ]\n"
+"használat: indent fájl [-o kimeneti fájl ] [ opciók ]\n"
 "       indent fájl1 fájl2 ... fájlN [ opciók ]\n"
 
 #: src/args.c:740
@@ -79,7 +79,7 @@ msgid "indent:  Strange version-control value\n"
 msgstr "indent:  Furcsa verziókövetés-érték\n"
 
 #: src/backup.c:464
-#, c-format
+#, c-format, fuzzy
 msgid "indent:  Using numbered-existing\n"
 msgstr "indent:  Számozott-létező használata\n"
 
@@ -134,7 +134,7 @@ msgstr "Hiba"
 
 #: src/indent.c:291
 msgid "EOF encountered in comment"
-msgstr "EOF (fájl vége) a megjegyzésben"
+msgstr "EOF (fájl végjel) a megjegyzésben"
 
 #: src/indent.c:354
 msgid "Line broken"
@@ -198,7 +198,7 @@ msgstr "Nem lehet megnyitni a(z) %s bemeneti fájlt"
 #: src/code_io.c:222
 #, c-format
 msgid "Can't stat input file %s"
-msgstr "Nem lehet a statolni a(z) %s bemeneti fájlt"
+msgstr "Nem lehet a minősíteni a(z) %s bemeneti fájlt"
 
 #: src/code_io.c:227
 #, c-format
