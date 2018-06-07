@@ -9,30 +9,33 @@ msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2015-08-25 09:36+0200\n"
-"PO-Revision-Date: 2004-05-04 17:52+0200\n"
-"Last-Translator: Mikel Olasagasti <hey_neken@euskal.org>\n"
+"PO-Revision-Date: 2018-06-08 21:34+0000\n"
+"Last-Translator: Osoitz <oelkoro@gmail.com>\n"
 "Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0\n"
 
 #: src/args.c:673
-#, fuzzy
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
-msgstr "       indent fitxategia1 fitxategia2 ... fitxategiaN [ aukerak ]\n"
+msgstr ""
+"erabilera:  indent fitxategia [-o irteerafitxategia ] [ aukerak ]\n"
+"        indent fitxategia1 fitxategia2 ... fitxategiaN [ aukerak ]\n"
 
 #: src/args.c:740
-#, fuzzy, c-format
+#, c-format
 msgid "%s: missing argument to parameter %s\n"
-msgstr "indent: argumentua falta da %s parametroan\n"
+msgstr "%s: argumentua falta da %s parametroan\n"
 
 #: src/args.c:864
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unknown option \"%s\"\n"
-msgstr "indent: aukera ezezaguna \"%s\"\n"
+msgstr "%s: aukera ezezaguna \"%s\"\n"
 
 #: src/args.c:877
 #, c-format
@@ -45,9 +48,9 @@ msgid "GNU indent %s\n"
 msgstr "GNU indent %s\n"
 
 #: src/args.c:959
-#, fuzzy, c-format
+#, c-format
 msgid "%s: option ``%s'' requires a numeric parameter\n"
-msgstr "indent: ``%s''-k zenbaki bat behar du parametrotzat\n"
+msgstr "%s: ``%s'' aukerak zenbaki bat behar du parametrotzat\n"
 
 #: src/args.c:966
 #, fuzzy, c-format
