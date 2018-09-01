@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2015-08-27 03:47中国标准时间\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -129,53 +129,53 @@ msgstr "错误"
 msgid "EOF encountered in comment"
 msgstr "注释中出现 EOF"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "断行"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "文件先于预期结束"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "有 %d 个非空行和 %d 行注释\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(注释行)/(代码行)：%6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "断行 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent：只有一个输出文件(第二个是 %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent：当指定了输出文件时，只接受一个输入文件\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent：当使用标准输入时不能指定文件名\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent：当使用 stdout 时，只接受一个输入文件\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "命令行"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "读取配置文件 %s\n"
@@ -248,15 +248,15 @@ msgstr "无法关闭输出文件 %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "无法维持输出文件 %s 原有的最后改动时间"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "未配对的‘else’"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "嵌套语句错误。"
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "未知代码无法解析"
 

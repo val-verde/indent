@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2003-04-19 09:22+0300\n"
 "Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
@@ -127,53 +127,53 @@ msgstr "Eroare"
 msgid "EOF encountered in comment"
 msgstr "EOF întâlnit în comentariu"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Linie întreruptă"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Sfârşit de fişier neaşteptat"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Au fost %d linii negoale(non-blank) şi %d comentarii\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Linii cu comentarii)/(Linii de cod): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Linie întreruptă 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: doar un fişier de output (al doilea a fost %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: doar un fişier de input când fişier output e specificat\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: nu putem aveam nume_fişiere când e specificat standard input\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: doar un fişier de intrare când e folosit stdout\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr ""
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Citeşte profil %s\n"
@@ -246,15 +246,15 @@ msgstr "Nu pot închide fişierul de output %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Nu pot păstra data modificării fişierului de output %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "'else' fără corespondent"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Eroare nesting stmt."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Cod necunoscut în analizor(parser)"
 

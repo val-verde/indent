@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2015-08-26 18:34+0300\n"
 "Last-Translator:  Roumen Petrov <transl@roumenpetrov.info>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
@@ -133,53 +133,53 @@ msgstr "Грешка"
 msgid "EOF encountered in comment"
 msgstr "Сблъскване с край на файл при бележка"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Прекъснат ред"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Неочакван край на файл"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Намерени %d изходящи реда, които не са празни и %d бележки\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Редове с бележки)/(Редове с код): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Прекъснат ред(2)"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: само един изходящ файл (втория е %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: само един входящ файл, ако е указан изходящ\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: не може с имена на файлове, когато е указан стандартен вход\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: само един входящ файл, когато се използва стандартния изход\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "команден ред"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Прочетени настройки от файл %s\n"
@@ -254,15 +254,15 @@ msgstr "Не можа да се затвори изходящия файл %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Не може да се запази датата и часа на промяна на изходящия файл %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "Несъответстващ 'else'"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Грешка при вграждане на блок с код."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Неразпознат код при обработка"
 

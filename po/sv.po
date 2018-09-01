@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2017-09-24 09:53+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -130,53 +130,53 @@ msgstr "Fel"
 msgid "EOF encountered in comment"
 msgstr "Filslut påträffades i kommentar"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Rad bruten"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Oväntat slut på filen"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Det fanns %d icke-tomma utdatarader och %d kommentarer\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Rader med kommentarer)/(Rader med kod): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Rad bruten 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: endast en utdatafil tillåten (andra var %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: endast en indatafil när utdatafil är angiven\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: filnamn är inte tillåtna när standard in används\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: endast en indatafil när standard ut används\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "kommandorad"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Läste profilen %s\n"
@@ -249,15 +249,15 @@ msgstr "Kan inte stänga utdatafilen %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Kan inte bevara modifieringstiden på utdatafilen %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "Omaka \"else\""
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Fel i kapsling av uttryck."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Kod okänd för tolken"
 

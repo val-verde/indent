@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2008-12-31 07:00+0700\n"
 "Last-Translator: Arif E. Nugroho <arif_endro@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
@@ -132,55 +132,55 @@ msgstr "Kesalahan"
 msgid "EOF encountered in comment"
 msgstr "EOF ditemukan dalam komentar"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Baris putus"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Akhir file tidak diharapkan"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Terdapat %d baris output tidak kosong dan %d komentar\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Baris dengan komentar)/(Baris dengan kode): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Baris putus 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: hanya satu file output (yang kedua adalah %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: hanya satu file input ketika output file disebutkan\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr ""
 "indent: tidak boleh memiliki namafile ketika menspesifikasikan input "
 "standar\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: hanya satu file input ketika digunakan stdout\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "baris perintah"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Baca profil %s\n"
@@ -253,15 +253,15 @@ msgstr "Tidak dapat menutup file output %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Tidak dapat menjaga waktu modifikasi pada file output %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "'else' tidak sesuai"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Kesalahan statemen nesting."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Kode tidak dikenal parser"
 

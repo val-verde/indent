@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.8\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2002-10-27 20:30GMT\n"
 "Last-Translator: Josep Maria Balasch <jbalasch@mailtvc.com>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
@@ -129,56 +129,56 @@ msgstr "Error"
 msgid "EOF encountered in comment"
 msgstr "S'ha trobat EOF en el comentari"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Línia trencada"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Inesperat final de fitxer"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Hi havia %d de línies no buides de sortida i %d comentaris\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Línies amb comentaris)/(Línies amb codi): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Línia trencada 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: només un fitxer de sortida (el 2n era %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr ""
 "indent: només un fitxer d'entrada quan el fitxer de sortida és especificat\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr ""
 "indent: no hi pot haver noms de fitxer quan s'especifica l'entrada "
 "estàndard\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: només un fitxer d'entrada quan stdout és emprat\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr ""
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Llegir perfil %s\n"
@@ -252,15 +252,15 @@ msgid "Can't preserve modification time on output file %s"
 msgstr ""
 "No s'ha pogut conservar el temps de modificació en el fitxer de sortida %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "'else' desaparellat"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Stmt error de nesting"
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Codi desconegut per l'analitzador de sintaxis"
 

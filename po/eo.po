@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2016-02-22 13:18+0000\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto "
@@ -135,53 +135,53 @@ msgstr "Eraro"
 msgid "EOF encountered in comment"
 msgstr "Dosierfino (EOF) en komento"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Linio rompita"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Neatendita fino de dosiero"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "Estis %d nevakaj eliglinioj kaj %d komentoj\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Linioj kun komentoj)/(Linioj kun kodumo): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Linio rompita 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: nur unu eligdosiero (dua estis %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: nur unu enigdosiero, kiam eligdosiero estas specifita\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: dosiernomoj ne eblas, kiam la normala enigo estas specifita\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: nur unu enigdosiero, kiam la normala eligo estas uzata\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "komand-linio"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Legi profilon %s\n"
@@ -254,15 +254,15 @@ msgstr "Ne povas fermi eligdosieron %s"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Ne povas konservi modif-tempon en la eligdosiero %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "Senpara 'else'"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Eraro en ingado de ordonoj."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Nekonata kodo por analizilo"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.9\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2006-03-20 10:36+0900\n"
 "Last-Translator: GOTO Masanori <gotom@debian.or.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -127,53 +127,53 @@ msgstr "エラー"
 msgid "EOF encountered in comment"
 msgstr "コメント中で EOF に遭遇しました"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "行が壊れています"
 
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "予期しないファイルの終端です"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "非空行が %d 行、コメントが %d 行あります\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(コメント付きの行)/(コード付きの行): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "行が壊れています 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: 唯一の出力ファイル (2番目は %s でした)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr "indent: 出力ファイルが指定されたときの唯一の入力ファイルです\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr "indent: 標準入力で指定された時にファイル名がありませんでした\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr "indent: stdout が使用された時唯一の入力ファイルです\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr ""
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "プロファイル %s を読みます\n"
@@ -246,15 +246,15 @@ msgstr "出力ファイル %s を閉じられません"
 msgid "Can't preserve modification time on output file %s"
 msgstr "出力ファイル %s の変更時刻を保存できませんでした"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "'else' が不一致"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "stmt ネストエラー."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "パーサーへの不明なコード"
 

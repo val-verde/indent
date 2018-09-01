@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
-"POT-Creation-Date: 2015-08-25 09:36+0200\n"
+"POT-Creation-Date: 2018-09-01 17:48+0200\n"
 "PO-Revision-Date: 2008-05-16 10:38-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -133,57 +133,57 @@ msgstr "Earráid"
 msgid "EOF encountered in comment"
 msgstr "Buaileadh comhadchríoch i nóta tráchta"
 
-#: src/indent.c:354
+#: src/indent.c:355
 msgid "Line broken"
 msgstr "Líne bhriste"
 
 # in FARF -KPS
-#: src/indent.c:564
+#: src/indent.c:565
 msgid "Unexpected end of file"
 msgstr "Comhadchríoch gan choinne"
 
-#: src/indent.c:570
+#: src/indent.c:571
 #, c-format
 msgid "There were %d non-blank output lines and %d comments\n"
 msgstr "%d líne aschuir le hábhar agus %d nóta tráchta\n"
 
-#: src/indent.c:574
+#: src/indent.c:575
 #, c-format
 msgid "(Lines with comments)/(Lines with code): %6.3f\n"
 msgstr "(Línte le nótaí tráchta)/(Línte le bunchód): %6.3f\n"
 
-#: src/indent.c:598
+#: src/indent.c:599
 msgid "Line broken 2"
 msgstr "Líne bhriste 2"
 
-#: src/indent.c:820
+#: src/indent.c:821
 #, c-format
 msgid "indent: only one output file (2nd was %s)\n"
 msgstr "indent: ní cheadaítear ach aschomhad amháin (an dara ceann: %s)\n"
 
-#: src/indent.c:829 src/indent.c:855
+#: src/indent.c:830 src/indent.c:856
 #, c-format
 msgid "indent: only one input file when output file is specified\n"
 msgstr ""
 "indent: ní cheadaítear ach inchomhad amháin nuair atá aschomhad ceaptha\n"
 
-#: src/indent.c:843 src/indent.c:889
+#: src/indent.c:844 src/indent.c:890
 #, c-format
 msgid "indent: can't have filenames when specifying standard input\n"
 msgstr ""
 "indent: ní cheadaítear comhaid agus an t-ionchur caighdeánach sonraithe\n"
 
-#: src/indent.c:863
+#: src/indent.c:864
 #, c-format
 msgid "indent: only one input file when stdout is used\n"
 msgstr ""
 "indent: ní cheadaítear ach inchomhad amháin leis an aschur caighdeánach\n"
 
-#: src/indent.c:898
+#: src/indent.c:899
 msgid "command line"
 msgstr "líne na n-orduithe"
 
-#: src/indent.c:1116
+#: src/indent.c:1117
 #, c-format
 msgid "Read profile %s\n"
 msgstr "Próifíl %s léite\n"
@@ -261,15 +261,15 @@ msgstr "Ní féidir an t-aschomhad %s a dhúnadh"
 msgid "Can't preserve modification time on output file %s"
 msgstr "Níorbh fhéidir an t-am mionathraithe a choimeád ar an aschomhad %s"
 
-#: src/parse.c:474
+#: src/parse.c:475
 msgid "Unmatched 'else'"
 msgstr "'else' corr"
 
-#: src/parse.c:500
+#: src/parse.c:501
 msgid "Stmt nesting error."
 msgstr "Ráiteas neadaithe go mícheart."
 
-#: src/parse.c:542
+#: src/parse.c:543
 msgid "Unknown code to parser"
 msgstr "Cód anaithnid chuig an pharsálaí"
 
