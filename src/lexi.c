@@ -515,6 +515,7 @@ found_keyword:
             }
 
             l_struct = true;
+           /* fall through */
 
            /* Next time around, we will want to know that we have had a
               'struct' */

@@ -360,6 +360,7 @@ extern exit_values_ty parse (
             {
                 parser_state_tos->i_l_follow = parser_state_tos->il[parser_state_tos->tos];
             }
+            /* falls through */
 
         case dolit:             /* 'do' */
         case forstmt:           /* for (...) */

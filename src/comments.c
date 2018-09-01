@@ -698,8 +698,9 @@ cplus_exit:
                }
             }
 
-           /* If it was not the end of the comment, drop through
-            * and insert the star on the line. */
+           /* If it was not the end of the comment */
+           /* intentionally fall through */
+           /* and insert the star on the line. */
 
          default:
            /* Some textual character. */

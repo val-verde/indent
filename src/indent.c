@@ -310,7 +310,8 @@ static BOOLEAN search_brace(
                 break;
             }
 
-            /* Just some statement. */
+            /* Just some statement */
+            /* Falls through */
 
         default:
             /* Some statement.  Unless it's special, arrange
