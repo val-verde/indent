@@ -11,6 +11,7 @@ dnl Checks for programs.
 AC_PROG_CC
 AC_PROG_CPP
 AC_PROG_INSTALL
+AX_CC_FOR_BUILD
 
 AC_AIX
 AC_MINIX
