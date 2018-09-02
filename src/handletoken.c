@@ -680,6 +680,7 @@ static void handle_token_unary_op(
 
             if ((parser_state_tos->last_token == unary_op) &&
                 (e_code > s_code) &&
+                 *res != '!' &&
                 (*(e_code - 1) == *res))
             {
                 *(e_code++) = ' ';
