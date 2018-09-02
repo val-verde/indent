@@ -103,7 +103,7 @@ RCSTAG_CC ("$Id$");
      "-nbad\0-bap\0-nbc\0-bbo\0-hnl\0-br\0-brs\0-c33\0-cd33\0" \
      "-ncdb\0-ce\0-ci4\0-cli0\0-d0\0-di1\0-nfc1\0-i8\0-ip0\0-l80\0-lp\0" \
      "-npcs\0-nprs\0-npsl\0-sai\0-saf\0-saw\0-ncs\0-nsc\0-sob\0-nfca\0-cp33\0-ss\0" \
-     "-ts8\0-il1\0"
+     "-ts8\0-il1\0-nbs\0"
 
 const char *settings_strings[6] = {
 	KR_SETTINGS_STRING,
