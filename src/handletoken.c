@@ -2207,7 +2207,7 @@ static void handle_token_attribute(void)
     }
 
     parser_state_tos->in_decl = false;
-    parser_state_tos->want_blank = true;
+    parser_state_tos->want_blank = settings.blank_after_sizeof;
 }
 
 /**
