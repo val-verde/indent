@@ -8,7 +8,7 @@ BUILT_SOURCES =
 DISTFILES = $(DIST_COMMON:README=README.md) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 
 EXTRA_DIST = 	README.md \
-		config/config.rpath config/mkinstalldirs \
+		config/config.rpath \
 		ChangeLog-1990 ChangeLog-1998 ChangeLog-2001 \
 		aclocal/UTIMBUF.m4 \
 		miscel/Makefile.mingw32 \
