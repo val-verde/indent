@@ -7,6 +7,8 @@ check:
 
 distclean: clean
 
+maintainer-clean: clean
+
 distdir:
 
 clean:
