@@ -86,9 +86,14 @@ Bug reports
 Sending code
 ------------
 
-  If you send a patch as part of your bug fix, or send me code for new
+  If you send a patch as part of your bug fix, or send us code for new
   features, please send them as diffs.  In particular, include the
-  result of "diff -c <old_file> <new_file>".
+  result of `diff -c <old_file> <new_file>`.
+
+  Please make sure that patches you provide apply cleanly to the latest
+  code published in the Mercurial repo:
+
+    https://hg.savannah.gnu.org/hgweb/indent/
 
   Because of the regression testing the project requires of indent, 
   it is extremely unlikely that your code will be installed into indent
