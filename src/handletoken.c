@@ -717,8 +717,10 @@ static void handle_token_binary_op(
 {
     char           * t_ptr;
             
-    if (parser_state_tos->want_blank        || 
-        (e_code > s_code && *e_code != ' '))
+    if ((parser_state_tos->want_blank || (e_code > s_code && *e_code != ' '))
+        && !(parser_state_tos->in_parameter_declaration
+             && !settings.pointer_align_right
+             && *token == '*'))
     {
         set_buf_break (bb_binary_op, paren_target);
         *(e_code++) = ' ';
@@ -752,7 +754,9 @@ static void handle_token_binary_op(
     }
 #endif
     
-    parser_state_tos->want_blank = true;
+    parser_state_tos->want_blank = !(parser_state_tos->in_parameter_declaration
+                                     && settings.pointer_align_right
+                                     && *token == '*');
 }
 
 /**
