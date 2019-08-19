@@ -23,7 +23,7 @@ AM_CFLAGS += -Wcomment -Wbad-function-cast -Wcast-align
 
 ## Use -g when in maintainer mode
 if MAINTAINER_MODE
-AM_CFLAGS += -g
+AM_CFLAGS += -g -Wextra
 endif
 
 gperf.c: indent.gperf

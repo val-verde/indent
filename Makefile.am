@@ -43,7 +43,7 @@ MAINTAINERCLEANFILES = intl/* aclocal.m4 Makefile.in \
 
 ## Use -g when in maintainer mode
 if MAINTAINER_MODE
-CFLAGS+= -g -Wall -I.
+CFLAGS+= -g -Wall -I. -Wextra
 else
 CFLAGS+= -I.
 endif
