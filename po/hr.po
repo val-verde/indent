@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: indent 2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2018-09-01 17:48+0200\n"
-"PO-Revision-Date: 2020-01-20 22:21+0000\n"
+"PO-Revision-Date: 2020-06-14 21:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: src/args.c:673
 msgid ""
@@ -235,7 +235,7 @@ msgstr "Nezavršena konstanta znakovnog niza"
 #, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
 msgstr ""
-"višeznačnost starog načina pridruživanja u „=%s”.  Pretpostavljam „= %s”\n"
+"višeznačnost starog načina pridruživanja u „=%s”. Pretpostavljam „= %s”\n"
 
 #: src/output.c:1339
 #, c-format
