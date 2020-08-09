@@ -1972,8 +1972,8 @@ static void handle_token_preesc(
 
             bp_save = buf_ptr;
             be_save = buf_end;
-            buf_ptr = save_com.ptr;
             need_chars (&save_com, 1);
+            buf_ptr = save_com.ptr;
             buf_end = save_com.end;
             save_com.end = save_com.ptr;        /* make save_com empty */
         }
