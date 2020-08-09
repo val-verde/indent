@@ -412,6 +412,7 @@ extern void print_comment(
   /* Output the beginning comment delimiter.  They are both two
    * characters long. */
 
+   CHECK_COM_SIZE(2);
    *e_com++ = *start_delim;
    *e_com++ = *(start_delim + 1);
    column = start_column + 2;
