@@ -594,6 +594,13 @@ found_keyword:
             
          for (tp = buf_ptr + 1; (paren_count > 0) && (tp < in_prog + in_prog_size); tp++)
          {
+            if (buf_ptr >= buf_end)
+            {
+               fill_buffer();
+            }
+            if (had_eof) {
+                goto not_proc;
+            }
             if (*tp == '(')
             {
                paren_count++;
