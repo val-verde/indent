@@ -904,6 +904,7 @@ begin_line:
       }
    }
 
+   *e_com = '\0';
    parser_state_tos->tos--;
    parser_state_tos->com_col = (two_contiguous_comments ? 1 : start_column);
    parser_state_tos->box_com = boxed_comment;
