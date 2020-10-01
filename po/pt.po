@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GNU indent 2.2.12\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2018-09-01 17:48+0200\n"
-"PO-Revision-Date: 2020-08-30 11:14+0000\n"
+"PO-Revision-Date: 2020-10-02 14:40+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: none\n"
 "Language: pt\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: src/args.c:673
 msgid ""
 "usage: indent file [-o outfile ] [ options ]\n"
 "       indent file1 file2 ... fileN [ options ]\n"
 msgstr ""
-"uso: indent arq [-o saída] [opções]\n"
-"     indent arq1 arq2 ... arqN [ opções ]\n"
+"uso: indent ficheiro [-o saída] [opções]\n"
+"     indent ficheiro1 ficheiro2 ... arqN [ opções ]\n"
 
 #: src/args.c:740
 #, c-format
@@ -83,7 +83,7 @@ msgstr "indent:  Usando existentes-numeradas\n"
 #: src/backup.c:495
 #, c-format
 msgid "indent: Can't make backup filename of %s\n"
-msgstr "indent: Impossível criar um nome de backup de %s\n"
+msgstr "indent: impossível criar um nome do ficheiro de backup de %s\n"
 
 #: src/backup.c:503
 #, c-format
