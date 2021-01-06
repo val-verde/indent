@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: indent-2.2.10\n"
 "Report-Msgid-Bugs-To: bug-indent@gnu.org\n"
 "POT-Creation-Date: 2018-09-01 17:48+0200\n"
-"PO-Revision-Date: 2017-10-08 13:34+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"PO-Revision-Date: 2021-01-07 10:29+0000\n"
+"Last-Translator: Burek <jokxa@hotmail.com>\n"
 "Language-Team: Serbian <gnu@prevod.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.17-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: src/args.c:673
 msgid ""
@@ -235,7 +235,7 @@ msgstr "Непрекинута константа ниске"
 #: src/lexi.c:1113
 #, c-format
 msgid "old style assignment ambiguity in \"=%s\". Assuming \"= %s\"\n"
-msgstr "двозначност старог начина доделе \"=%s\".  Замена „= %s“\n"
+msgstr "двозначност старог начина доделе \"=%s\". Замена „= %s“\n"
 
 #: src/output.c:1339
 #, c-format
