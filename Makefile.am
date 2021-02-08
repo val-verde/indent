@@ -1,7 +1,7 @@
 ## Process this file with automake to produce Makefile.in
 AUTOMAKE_OPTIONS = no-texinfo.tex
 
-SUBDIRS = intl src doc po man regression
+SUBDIRS = intl src po man regression
 
 BUILT_SOURCES = 
 
