@@ -74,7 +74,7 @@
 
 RCSTAG_CC ("$Id$");
 
-static FILE            * output       = NULL;
+FILE            * output       = NULL;
 static BOOLEAN           inhibited    = 0;
 static buf_break_st_ty * buf_break_list = NULL;
 buf_break_st_ty * buf_break = NULL;
