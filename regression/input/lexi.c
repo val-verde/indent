@@ -106,7 +106,7 @@ hash (str, len)
   return len + hash_table[str[len - 1]] + hash_table[str[0]];
 }
 
-INLINE struct templ *
+struct templ *
 is_reserved (str, len)
      register char *str;
      register unsigned int len;
