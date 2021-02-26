@@ -49,4 +49,4 @@ echo "#### running automake"
 automake --version
 automake --add-missing
 rm README
-./configure --enable-maintainer-mode
+./configure --enable-maintainer-mode ${@}
