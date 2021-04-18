@@ -23,7 +23,10 @@ AM_CFLAGS += -Wcomment -Wbad-function-cast -Wcast-align
 
 ## Use -g when in maintainer mode
 if MAINTAINER_MODE
-AM_CFLAGS += -g -Wextra
+AM_CFLAGS += -g -Wextra -Werror -fstack-protector-strong -fPIE -pie
+AM_CFLAGS += -fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer
+AM_CPPFLAGS += -D_FORTIFY_SOURCE=2
+AM_LDFLAGS = -Wl,-z,relro -Wl,-z,now -static-libasan -static-libubsan
 endif
 
 gperf.c: indent.gperf
