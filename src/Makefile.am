@@ -17,7 +17,7 @@ LIBS = @LIBINTL@ @LIBS@
 
 MAINTAINERCLEANFILES= Makefile.in libgettext.h
 
-AM_CFLAGS  = -Wall -W -Werror -Wredundant-decls -Wshadow -Wstrict-prototypes
+AM_CFLAGS  = -Wall -W -Wredundant-decls -Wshadow -Wstrict-prototypes
 AM_CFLAGS += -Wmissing-prototypes -Wnested-externs -Wmissing-declarations
 AM_CFLAGS += -Wcomment -Wbad-function-cast -Wcast-align
 
