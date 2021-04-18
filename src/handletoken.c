@@ -85,7 +85,7 @@ extern void need_chars(buf_ty * bp, size_t needed)
 
     if (current_size + needed >= (size_t)bp->size)
     {
-        bp->size = ((current_size + needed) & (size_t)~1023);
+        bp->size = ROUND_UP (current_size + needed, 1024);
         bp->ptr = xrealloc(bp->ptr, bp->size);
         if (bp->ptr == NULL)
         {
