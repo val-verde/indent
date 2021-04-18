@@ -97,7 +97,7 @@ RCSTAG_H (indent, "$Id$");
 typedef enum exit_values
 {
   total_success = 0,
-  invocation_error = 1,
+  invocation_error = 64, /* EX_USAGE */
   indent_error = 2,
   indent_punt = 3,
   indent_fatal = 4,
