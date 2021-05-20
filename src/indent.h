@@ -57,7 +57,7 @@
 RCSTAG_H (indent, "$Id$");
 #include <config.h>
 
-#include <libgettext.h>
+#include <libintl.h>
 #ifdef ENABLE_NLS
 #define _(X) gettext(X)
 #else
